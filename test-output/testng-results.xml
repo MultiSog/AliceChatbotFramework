@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-05-23T10:02:31Z" name="Default suite" finished-at="2018-05-23T10:03:06Z" duration-ms="35738">
+    <groups>
+      <group name="Login">
+        <method signature="TestLogin.correctLogin()[pri:0, instance:testcases.TestLogin@3541cb24]" name="correctLogin" class="testcases.TestLogin"/>
+      </group> <!-- Login -->
+    </groups>
+    <test started-at="2018-05-23T10:02:31Z" name="Default test" finished-at="2018-05-23T10:03:06Z" duration-ms="35738">
+      <class name="testcases.TestLogin">
+        <test-method is-config="true" signature="loadVariables()[pri:0, instance:testcases.TestLogin@3541cb24]" started-at="2018-05-23T10:02:31Z" name="loadVariables" finished-at="2018-05-23T10:02:42Z" duration-ms="11186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadVariables -->
+        <test-method signature="correctLogin()[pri:0, instance:testcases.TestLogin@3541cb24]" started-at="2018-05-23T10:02:42Z" name="correctLogin" finished-at="2018-05-23T10:02:47Z" duration-ms="5457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TestLogin@3541cb24]" started-at="2018-05-23T10:02:47Z" name="closeDriver" finished-at="2018-05-23T10:02:49Z" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="loadVariables()[pri:0, instance:testcases.TestLogin@3541cb24]" started-at="2018-05-23T10:02:49Z" name="loadVariables" finished-at="2018-05-23T10:03:00Z" duration-ms="11169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadVariables -->
+        <test-method signature="wrongLogin()[pri:0, instance:testcases.TestLogin@3541cb24]" started-at="2018-05-23T10:03:00Z" name="wrongLogin" finished-at="2018-05-23T10:03:04Z" duration-ms="3664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TestLogin@3541cb24]" started-at="2018-05-23T10:03:04Z" name="closeDriver" finished-at="2018-05-23T10:03:06Z" duration-ms="2878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testcases.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

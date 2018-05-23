@@ -1,0 +1,6 @@
+2018-05-23 12:02:42,472 [main] INFO TestLogin - test: correct login
+2018-05-23 12:02:43,099 [main] INFO TestLogin - step: login request submitted
+2018-05-23 12:02:47,914 [main] INFO TestLogin - result: test passed
+2018-05-23 12:03:00,411 [main] INFO TestLogin - test: incorrect login
+2018-05-23 12:03:01,022 [main] INFO TestLogin - step: login request submitted
+2018-05-23 12:03:04,073 [main] INFO TestLogin - result: test passed
