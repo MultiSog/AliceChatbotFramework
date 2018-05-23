@@ -1,6 +1,18 @@
-2018-05-23 12:02:42,472 - TestLogin -INFO - test: correct login
-2018-05-23 12:02:43,099 - TestLogin -INFO - step: login request submitted
-2018-05-23 12:02:47,914 - TestLogin -INFO - result: test passed
-2018-05-23 12:03:00,411 - TestLogin -INFO - test: incorrect login
-2018-05-23 12:03:01,022 - TestLogin -INFO - step: login request submitted
-2018-05-23 12:03:04,073 - TestLogin -INFO - result: test passed
+2018-05-23 14:11:17,350 - TestLogin -INFO - test: correct login
+2018-05-23 14:11:18,398 - TestLogin -INFO - step: login request submitted
+2018-05-23 14:11:23,780 - TestLogin -INFO - result: test passed
+2018-05-23 14:11:25,641 - TestLogin -INFO - **********************************
+2018-05-23 14:11:39,197 - TestLogin -INFO - test: incorrect login
+2018-05-23 14:11:40,448 - TestLogin -INFO - step: login request submitted
+2018-05-23 14:11:43,672 - TestLogin -INFO - result: test passed
+2018-05-23 14:11:44,983 - TestLogin -INFO - **********************************
+2018-05-23 14:11:44,984 - TestLogin -INFO - 0 tests passed and 0 failed total: 0
+2018-05-23 14:12:54,557 - TestLogin -INFO - test: correct login
+2018-05-23 14:12:55,452 - TestLogin -INFO - step: login request submitted
+2018-05-23 14:12:58,346 - TestLogin -INFO - result: test passed
+2018-05-23 14:12:59,460 - TestLogin -INFO - **********************************
+2018-05-23 14:13:08,234 - TestLogin -INFO - test: incorrect login
+2018-05-23 14:13:09,239 - TestLogin -INFO - step: login request submitted
+2018-05-23 14:13:11,290 - TestLogin -INFO - result: test passed
+2018-05-23 14:13:12,415 - TestLogin -INFO - **********************************
+2018-05-23 14:13:12,416 - TestLogin -INFO - 2 tests passed and 0 failed total: 2

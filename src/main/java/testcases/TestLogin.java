@@ -11,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -24,12 +26,26 @@ public class TestLogin {
 	private WebDriver driver;
 	private LoginPage page;
 	Logger logger = Logger.getLogger("TestLogin");
+	private int passes;
+	private int fails;
 
 	@BeforeMethod
 	public void loadVariables() {
 		driver = DriverManager.getChromeDriver();
 		LoadPage.goToHomePage(driver);
 		page = new LoginPage(driver);
+
+	}
+
+	@AfterTest
+	public void logResults() {
+		logger.info(passes+" tests passed and "+fails+" failed"+" total: "+(passes+fails));
+		logger.info("**********************************");
+
+	}
+	
+	@BeforeClass
+	public void configLogger() {
 		PropertyConfigurator.configure("Log4j.properties");
 
 	}
@@ -40,6 +56,8 @@ public class TestLogin {
 		driver.quit();
 		driver = null;
 		page = null;
+		logger.info("**********************************");
+
 	}
 
 	@Test(testName = "CHAT-28.1 Correct Login", groups = { "Login" })
@@ -61,8 +79,10 @@ public class TestLogin {
 
 		if (loaded) {
 			logger.info("result: test passed");
+			passes++;
 		} else {
 			logger.info("result: test failed");
+			fails++;
 		}
 
 	}
@@ -84,8 +104,10 @@ public class TestLogin {
 		assertEquals(loaded, true);
 		if (loaded) {
 			logger.info("result: test passed");
+			passes++;
 		} else {
 			logger.info("result: test failed");
+			fails++;
 		}
 	}
 
