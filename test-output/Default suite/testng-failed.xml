@@ -3,13 +3,44 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="testcases.TestNavigation">
+        <methods>
+          <include name="revokeSharedMailbox"/>
+          <include name="otherExchange"/>
+          <include name="modifyRequest"/>
+          <include name="incidentSecurity"/>
+          <include name="antivirus"/>
+          <include name="calendarAccess"/>
+          <include name="reportAnIncident"/>
+          <include name="modifyTicket"/>
+          <include name="submitARequest"/>
+          <include name="communication"/>
+          <include name="sendAsPermissions"/>
+          <include name="configLogger"/>
+          <include name="accessMailboxExhange"/>
+          <include name="reload"/>
+          <include name="closeDriver"/>
+          <include name="loadPage"/>
+          <include name="otherEmailRequest"/>
+          <include name="modifyIncident"/>
+          <include name="emailMailbox"/>
+          <include name="issueEmails"/>
+          <include name="notSpam"/>
+          <include name="createModifyTicket"/>
+          <include name="problemAV"/>
+          <include name="spam"/>
+          <include name="exchange"/>
+          <include name="accessSharedCalendar"/>
+          <include name="createTicket"/>
+        </methods>
+      </class> <!-- testcases.TestNavigation -->
       <class name="testcases.TestLogin">
         <methods>
           <include name="correctLogin"/>
           <include name="closeDriver"/>
+          <include name="logResults"/>
           <include name="loadVariables"/>
-          <include name="wrongLogin"/>
-          <include name="doStuff"/>
+          <include name="configLogger"/>
         </methods>
       </class> <!-- testcases.TestLogin -->
     </classes>

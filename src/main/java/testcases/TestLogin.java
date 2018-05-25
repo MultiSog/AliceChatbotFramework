@@ -10,8 +10,8 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -34,20 +34,20 @@ public class TestLogin {
 		driver = DriverManager.getChromeDriver();
 		LoadPage.goToHomePage(driver);
 		page = new LoginPage(driver);
-
-	}
-
-	@AfterTest
-	public void logResults() {
-		logger.info(passes+" tests passed and "+fails+" failed"+" total: "+(passes+fails));
 		logger.info("**********************************");
-
 	}
-	
+
+	@AfterClass
+	public void logResults() {
+		logger.warn(passes + " tests passed and " + fails + " failed" + " total: " + (passes + fails));
+		logger.info("**********************************");
+	}
+
 	@BeforeClass
 	public void configLogger() {
 		PropertyConfigurator.configure("Log4j.properties");
-
+		passes=0;
+		fails=0;
 	}
 
 	@AfterMethod
@@ -57,12 +57,11 @@ public class TestLogin {
 		driver = null;
 		page = null;
 		logger.info("**********************************");
-
 	}
 
 	@Test(testName = "CHAT-28.1 Correct Login", groups = { "Login" })
 	public void correctLogin() {
-		logger.info("test: correct login");
+		logger.info("test: "+Thread.currentThread().getStackTrace()[1].getMethodName());
 		page.enterUserId(USERID);
 		page.enterPassword(PASSWORD);
 		page.clickLoginButton();
@@ -74,22 +73,20 @@ public class TestLogin {
 		} catch (TimeoutException e) {
 			loaded = false;
 		}
-
 		assertEquals(loaded, true);
 
 		if (loaded) {
-			logger.info("result: test passed");
+			logger.warn("result: test passed");
 			passes++;
 		} else {
-			logger.info("result: test failed");
+			logger.warn("result: test failed");
 			fails++;
 		}
-
 	}
 
 	@Test(testName = "Chat-28.2 Wrong Login")
 	public void wrongLogin() {
-		logger.info("test: incorrect login");
+		logger.info("test: "+Thread.currentThread().getStackTrace()[1].getMethodName());
 		page.enterUserId(USERID);
 		page.enterPassword("wrongPassword");
 		page.clickLoginButton();
@@ -102,11 +99,12 @@ public class TestLogin {
 			loaded = false;
 		}
 		assertEquals(loaded, true);
+		
 		if (loaded) {
-			logger.info("result: test passed");
+			logger.warn("result: test passed");
 			passes++;
 		} else {
-			logger.info("result: test failed");
+			logger.warn("result: test failed");
 			fails++;
 		}
 	}

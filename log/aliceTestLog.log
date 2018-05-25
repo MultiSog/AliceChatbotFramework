@@ -1,18 +1,121 @@
-2018-05-23 14:11:17,350 - TestLogin -INFO - test: correct login
-2018-05-23 14:11:18,398 - TestLogin -INFO - step: login request submitted
-2018-05-23 14:11:23,780 - TestLogin -INFO - result: test passed
-2018-05-23 14:11:25,641 - TestLogin -INFO - **********************************
-2018-05-23 14:11:39,197 - TestLogin -INFO - test: incorrect login
-2018-05-23 14:11:40,448 - TestLogin -INFO - step: login request submitted
-2018-05-23 14:11:43,672 - TestLogin -INFO - result: test passed
-2018-05-23 14:11:44,983 - TestLogin -INFO - **********************************
-2018-05-23 14:11:44,984 - TestLogin -INFO - 0 tests passed and 0 failed total: 0
-2018-05-23 14:12:54,557 - TestLogin -INFO - test: correct login
-2018-05-23 14:12:55,452 - TestLogin -INFO - step: login request submitted
-2018-05-23 14:12:58,346 - TestLogin -INFO - result: test passed
-2018-05-23 14:12:59,460 - TestLogin -INFO - **********************************
-2018-05-23 14:13:08,234 - TestLogin -INFO - test: incorrect login
-2018-05-23 14:13:09,239 - TestLogin -INFO - step: login request submitted
-2018-05-23 14:13:11,290 - TestLogin -INFO - result: test passed
-2018-05-23 14:13:12,415 - TestLogin -INFO - **********************************
-2018-05-23 14:13:12,416 - TestLogin -INFO - 2 tests passed and 0 failed total: 2
+2018-05-24 13:57:04,575 - TestLogin -INFO - **********************************
+2018-05-24 13:57:04,598 - TestLogin -INFO - test: correctLogin
+2018-05-24 13:57:05,749 - TestLogin -INFO - step: login request submitted
+2018-05-24 13:57:07,802 - TestLogin -WARN - result: test passed
+2018-05-24 13:57:09,068 - TestLogin -INFO - **********************************
+2018-05-24 13:57:20,437 - TestLogin -INFO - **********************************
+2018-05-24 13:57:20,444 - TestLogin -INFO - test: wrongLogin
+2018-05-24 13:57:22,024 - TestLogin -INFO - step: login request submitted
+2018-05-24 13:57:24,078 - TestLogin -WARN - result: test passed
+2018-05-24 13:57:25,314 - TestLogin -INFO - **********************************
+2018-05-24 13:57:27,104 - TestNavigation -INFO - test: createModifyTicket
+2018-05-24 13:57:28,206 - TestNavigation -INFO - test: reportAnIncident
+2018-05-24 13:57:31,068 - TestNavigation -WARN - Test passed
+2018-05-24 13:57:31,507 - TestNavigation -INFO - test: submitARequest
+2018-05-24 13:57:33,511 - TestNavigation -WARN - Test passed
+2018-05-24 13:57:33,984 - TestNavigation -INFO - test: incidentHardware
+2018-05-24 13:57:37,460 - TestNavigation -WARN - Test passed
+2018-05-24 13:57:37,912 - TestNavigation -INFO - test: incidentNetwork
+2018-05-24 13:57:41,143 - TestNavigation -WARN - Test passed
+2018-05-24 13:57:42,109 - TestNavigation -INFO - test: incidentSecurity
+2018-05-24 13:57:44,935 - TestNavigation -WARN - Test passed
+2018-05-24 13:57:45,855 - TestNavigation -INFO - test: incidentSoftware
+2018-05-24 13:57:48,724 - TestNavigation -WARN - Test passed
+2018-05-24 13:57:49,587 - TestNavigation -INFO - test: communication
+2018-05-24 13:57:52,808 - TestNavigation -WARN - Test passed
+2018-05-24 13:57:53,481 - TestNavigation -INFO - test: dataManagement
+2018-05-24 13:57:57,395 - TestNavigation -WARN - Test passed
+2018-05-24 13:57:58,324 - TestNavigation -INFO - test: hardwareRequest
+2018-05-24 13:58:01,899 - TestNavigation -WARN - Test passed
+2018-05-24 13:58:02,523 - TestNavigation -INFO - test: infrastructure
+2018-05-24 13:58:05,469 - TestNavigation -WARN - Test passed
+2018-05-24 13:58:06,338 - TestNavigation -INFO - test: managedBusinessApplication
+2018-05-24 13:58:09,439 - TestNavigation -WARN - Test passed
+2018-05-24 13:58:10,536 - TestNavigation -INFO - test: activeDirectory
+2018-05-24 13:58:16,018 - TestNavigation -WARN - Test passed
+2018-05-24 13:58:17,614 - TestNavigation -INFO - test: antivirus
+2018-05-24 13:58:29,288 - TestNavigation -WARN - Test passed
+2018-05-24 13:58:30,160 - TestNavigation -INFO - test: exchange
+2018-05-24 13:58:42,439 - TestNavigation -INFO - test: businessApp
+2018-05-24 13:58:47,564 - TestNavigation -WARN - Test passed
+2018-05-24 13:58:48,191 - TestNavigation -INFO - test: citrix
+2018-05-24 13:58:53,294 - TestNavigation -WARN - Test passed
+2018-05-24 13:58:53,854 - TestNavigation -INFO - test: communicationApp
+2018-05-24 13:58:57,543 - TestNavigation -WARN - Test passed
+2018-05-24 13:58:57,990 - TestNavigation -INFO - test: officeApp
+2018-05-24 13:59:05,335 - TestNavigation -WARN - Test passed
+2018-05-24 13:59:05,863 - TestNavigation -INFO - test: otherSoftware
+2018-05-24 13:59:10,124 - TestNavigation -WARN - Test passed
+2018-05-24 13:59:10,862 - TestNavigation -INFO - test: emailMailbox
+2018-05-24 13:59:14,401 - TestNavigation -WARN - Test passed
+2018-05-24 13:59:14,905 - TestNavigation -INFO - test: ipTelephonyServices
+2018-05-24 13:59:18,578 - TestNavigation -WARN - Test passed
+2018-05-24 13:59:19,155 - TestNavigation -INFO - test: bPC
+2018-05-24 13:59:23,214 - TestNavigation -WARN - Test failed
+2018-05-24 13:59:23,693 - TestNavigation -INFO - test: clickview
+2018-05-24 13:59:29,007 - TestNavigation -WARN - Test failed
+2018-05-24 13:59:29,507 - TestNavigation -INFO - test: clockworks
+2018-05-24 13:59:33,091 - TestNavigation -WARN - Test failed
+2018-05-24 13:59:33,523 - TestNavigation -INFO - test: general
+2018-05-24 13:59:36,864 - TestNavigation -WARN - Test failed
+2018-05-24 13:59:37,367 - TestNavigation -INFO - test: imis
+2018-05-24 13:59:40,553 - TestNavigation -WARN - Test failed
+2018-05-24 13:59:41,196 - TestNavigation -INFO - test: lyris
+2018-05-24 13:59:44,667 - TestNavigation -WARN - Test failed
+2018-05-24 13:59:45,553 - TestNavigation -INFO - test: mailchimp
+2018-05-24 13:59:49,268 - TestNavigation -WARN - Test failed
+2018-05-24 13:59:49,904 - TestNavigation -INFO - test: mobatime
+2018-05-24 13:59:53,549 - TestNavigation -WARN - Test failed
+2018-05-24 13:59:54,125 - TestNavigation -INFO - test: proconcept
+2018-05-24 13:59:57,822 - TestNavigation -WARN - Test failed
+2018-05-24 13:59:58,399 - TestNavigation -INFO - test: scorecards
+2018-05-24 14:00:02,148 - TestNavigation -WARN - Test failed
+2018-05-24 14:00:02,802 - TestNavigation -INFO - test: vPN
+2018-05-24 14:00:06,714 - TestNavigation -WARN - Test passed
+2018-05-24 14:00:07,204 - TestNavigation -INFO - test: addEmail
+2018-05-24 14:00:11,242 - TestNavigation -WARN - Test passed
+2018-05-24 14:00:11,793 - TestNavigation -INFO - test: changeLastName
+2018-05-24 14:00:15,550 - TestNavigation -WARN - Test passed
+2018-05-24 14:00:15,998 - TestNavigation -INFO - test: changeNameManager
+2018-05-24 14:00:19,984 - TestNavigation -WARN - Test passed
+2018-05-24 14:00:20,427 - TestNavigation -INFO - test: changeOfficeAddress
+2018-05-24 14:00:26,302 - TestNavigation -WARN - Test passed
+2018-05-24 14:00:26,839 - TestNavigation -INFO - test: grantAccessFolder
+2018-05-24 14:00:31,141 - TestNavigation -WARN - Test passed
+2018-05-24 14:00:31,696 - TestNavigation -INFO - test: problemAV
+2018-05-24 14:00:41,637 - TestNavigation -INFO - test: resetPassword
+2018-05-24 14:00:46,223 - TestNavigation -WARN - Test passed
+2018-05-24 14:00:46,935 - TestNavigation -INFO - test: createDistributionList
+2018-05-24 14:00:53,221 - TestNavigation -WARN - Test passed
+2018-05-24 14:00:53,652 - TestNavigation -INFO - test: createEmailIntoFolder
+2018-05-24 14:00:58,862 - TestNavigation -WARN - Test passed
+2018-05-24 14:00:59,374 - TestNavigation -INFO - test: createSharedMailbox
+2018-05-24 14:01:04,324 - TestNavigation -WARN - Test passed
+2018-05-24 14:01:04,848 - TestNavigation -INFO - test: deleteSharedMailbox
+2018-05-24 14:01:10,312 - TestNavigation -WARN - Test passed
+2018-05-24 14:01:10,766 - TestNavigation -INFO - test: disableSharedMailbox
+2018-05-24 14:01:16,059 - TestNavigation -WARN - Test passed
+2018-05-24 14:01:16,536 - TestNavigation -INFO - test: grantSharedMailboxAccess
+2018-05-24 14:01:22,451 - TestNavigation -WARN - Test passed
+2018-05-24 14:01:22,918 - TestNavigation -INFO - test: grantUserMailboxAccess
+2018-05-24 14:01:28,423 - TestNavigation -WARN - Test passed
+2018-05-24 14:01:28,935 - TestNavigation -INFO - test: modifyExistingMailbox
+2018-05-24 14:01:34,171 - TestNavigation -WARN - Test passed
+2018-05-24 14:01:34,845 - TestNavigation -INFO - test: otherEmailRequest
+2018-05-24 14:01:40,091 - TestNavigation -INFO - test: registerNewDomain
+2018-05-24 14:01:45,713 - TestNavigation -WARN - Test passed
+2018-05-24 14:01:46,237 - TestNavigation -INFO - test: revokeSharedMailbox
+2018-05-24 14:01:51,533 - TestNavigation -INFO - test: unlockAccount
+2018-05-24 14:01:55,314 - TestNavigation -WARN - Test passed
+2018-05-24 14:01:55,892 - TestNavigation -INFO - test: badPerformance
+2018-05-24 14:01:59,881 - TestNavigation -WARN - Test passed
+2018-05-24 14:02:00,362 - TestNavigation -INFO - test: otherVPN
+2018-05-24 14:02:05,055 - TestNavigation -WARN - Test passed
+2018-05-24 14:02:05,506 - TestNavigation -INFO - test: unableLogin
+2018-05-24 14:02:19,654 - TestNavigation -WARN - Test failed
+2018-05-24 14:02:20,188 - TestNavigation -INFO - test: virusFound
+2018-05-24 14:02:24,240 - TestNavigation -WARN - Test passed
+2018-05-24 14:02:24,244 - TestLogin -WARN - 2 tests passed and 0 failed total: 2
+2018-05-24 14:02:24,244 - TestLogin -INFO - **********************************
+2018-05-24 14:02:25,625 - TestNavigation -WARN - 40 tests passed and 11 failed total: 51
+2018-05-24 14:02:25,625 - TestNavigation -INFO - **********************************
