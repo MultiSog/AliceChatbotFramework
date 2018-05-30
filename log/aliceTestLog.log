@@ -584,3 +584,161 @@
 2018-05-30 10:46:26,677 - TestNavigation -WARN - Test passed
 2018-05-30 10:46:26,678 - TestNavigation -INFO - **********************************
 2018-05-30 10:46:27,428 - TestNavigation -INFO - test: mailchimp
+2018-05-30 10:46:31,647 - TestNavigation -WARN - Test passed
+2018-05-30 10:46:31,648 - TestNavigation -INFO - **********************************
+2018-05-30 10:46:32,595 - TestNavigation -INFO - test: mobatime
+2018-05-30 10:46:36,190 - TestNavigation -WARN - Test passed
+2018-05-30 10:46:36,195 - TestNavigation -INFO - **********************************
+2018-05-30 10:46:36,643 - TestNavigation -INFO - test: proconcept
+2018-05-30 10:46:39,698 - TestNavigation -WARN - Test passed
+2018-05-30 10:46:39,699 - TestNavigation -INFO - **********************************
+2018-05-30 10:46:40,276 - TestNavigation -INFO - test: scorecards
+2018-05-30 10:46:44,288 - TestNavigation -WARN - Test passed
+2018-05-30 10:46:44,289 - TestNavigation -INFO - **********************************
+2018-05-30 10:46:44,859 - TestNavigation -INFO - test: vPN
+2018-05-30 10:46:50,584 - TestNavigation -WARN - Test passed
+2018-05-30 10:46:50,585 - TestNavigation -INFO - **********************************
+2018-05-30 10:46:50,998 - TestNavigation -INFO - test: addEmail
+2018-05-30 10:46:54,957 - TestNavigation -WARN - Test passed
+2018-05-30 10:46:54,958 - TestNavigation -INFO - **********************************
+2018-05-30 10:46:55,368 - TestNavigation -INFO - test: changeLastName
+2018-05-30 10:46:58,711 - TestNavigation -INFO - **********************************
+2018-05-30 10:46:59,084 - TestNavigation -INFO - test: changeNameManager
+2018-05-30 10:47:02,949 - TestNavigation -WARN - Test passed
+2018-05-30 10:47:02,950 - TestNavigation -INFO - **********************************
+2018-05-30 10:47:03,400 - TestNavigation -INFO - test: changeOfficeAddress
+2018-05-30 10:47:06,913 - TestNavigation -WARN - Test passed
+2018-05-30 10:47:06,916 - TestNavigation -INFO - **********************************
+2018-05-30 10:47:07,271 - TestNavigation -INFO - test: grantAccessFolder
+2018-05-30 10:47:11,220 - TestNavigation -WARN - Test passed
+2018-05-30 10:47:11,221 - TestNavigation -INFO - **********************************
+2018-05-30 10:47:11,554 - TestNavigation -INFO - test: problemAV
+2018-05-30 10:47:20,177 - TestNavigation -WARN - Test passed
+2018-05-30 10:47:20,177 - TestNavigation -INFO - **********************************
+2018-05-30 10:47:20,856 - TestNavigation -INFO - test: resetPassword
+2018-05-30 10:47:25,475 - TestNavigation -WARN - Test passed
+2018-05-30 10:47:25,476 - TestNavigation -INFO - **********************************
+2018-05-30 10:47:26,039 - TestNavigation -INFO - test: unlockAccount
+2018-05-30 10:47:29,694 - TestNavigation -WARN - Test passed
+2018-05-30 10:47:29,694 - TestNavigation -INFO - **********************************
+2018-05-30 10:47:30,080 - TestNavigation -INFO - test: badPerformance
+2018-05-30 10:47:33,762 - TestNavigation -WARN - Test passed
+2018-05-30 10:47:33,763 - TestNavigation -INFO - **********************************
+2018-05-30 10:47:34,178 - TestNavigation -INFO - test: otherVPN
+2018-05-30 10:47:38,341 - TestNavigation -WARN - Test passed
+2018-05-30 10:47:38,342 - TestNavigation -INFO - **********************************
+2018-05-30 10:47:38,822 - TestNavigation -INFO - test: unableLogin
+2018-05-30 10:47:52,337 - TestNavigation -WARN - Test failed
+2018-05-30 10:47:52,337 - TestNavigation -INFO - **********************************
+2018-05-30 10:47:53,043 - TestNavigation -INFO - test: virusFound
+2018-05-30 10:47:56,805 - TestNavigation -WARN - Test passed
+2018-05-30 10:47:56,807 - TestNavigation -INFO - **********************************
+2018-05-30 10:47:56,808 - TestNavigation -WARN - 34 tests passed and 4 failed total: 47
+2018-05-30 10:47:56,808 - TestNavigation -INFO - **********************************
+2018-05-30 10:52:01,535 - TestLogin -INFO - **********************************
+2018-05-30 10:52:01,548 - TestLogin -INFO - test: correctLogin
+2018-05-30 10:52:02,170 - TestLogin -INFO - step: login request submitted
+2018-05-30 10:52:13,089 - TestLogin -INFO - **********************************
+2018-05-30 10:52:13,089 - TestLogin -WARN - 0 tests passed and 0 failed total: 0
+2018-05-30 10:52:13,090 - TestLogin -INFO - **********************************
+2018-05-30 10:52:13,103 - TestNavigation -WARN - 0 tests passed and 0 failed total: 0
+2018-05-30 10:52:13,103 - TestNavigation -INFO - **********************************
+2018-05-30 10:53:29,072 - TestLogin -INFO - **********************************
+2018-05-30 10:53:29,089 - TestLogin -INFO - test: correctLogin
+2018-05-30 10:53:29,871 - TestLogin -INFO - step: login request submitted
+2018-05-30 10:53:40,807 - TestLogin -INFO - **********************************
+2018-05-30 10:53:40,807 - TestLogin -WARN - 0 tests passed and 0 failed total: 0
+2018-05-30 10:53:40,809 - TestLogin -INFO - **********************************
+2018-05-30 10:53:40,818 - TestNavigation -WARN - 0 tests passed and 0 failed total: 0
+2018-05-30 10:53:40,818 - TestNavigation -INFO - **********************************
+2018-05-30 11:12:19,815 - TestLogin -INFO - **********************************
+2018-05-30 11:12:19,836 - TestLogin -INFO - test: correctLogin
+2018-05-30 11:12:20,099 - TestLogin -INFO - step: login request submitted
+2018-05-30 11:12:21,652 - TestLogin -WARN - result: test passed
+2018-05-30 11:12:22,465 - TestLogin -INFO - **********************************
+2018-05-30 11:12:22,465 - TestLogin -WARN - 1 tests passed and 0 failed total: 1
+2018-05-30 11:12:22,465 - TestLogin -INFO - **********************************
+2018-05-30 11:12:22,787 - TestNavigation -INFO - test: createModifyTicket
+2018-05-30 11:12:24,163 - TestNavigation -INFO - step: button clicked
+2018-05-30 11:12:24,221 - TestNavigation -WARN - Test passed
+2018-05-30 11:12:24,226 - TestNavigation -INFO - **********************************
+2018-05-30 11:12:24,479 - TestNavigation -INFO - test: modifyTicket
+2018-05-30 11:12:30,544 - TestNavigation -INFO - **********************************
+2018-05-30 11:12:30,544 - TestNavigation -WARN - 1 tests passed and 0 failed total: 2
+2018-05-30 11:12:30,544 - TestNavigation -INFO - **********************************
+2018-05-30 11:14:06,134 - TestLogin -INFO - **********************************
+2018-05-30 11:14:06,146 - TestLogin -INFO - test: correctLogin
+2018-05-30 11:14:06,420 - TestLogin -INFO - step: login request submitted
+2018-05-30 11:14:08,703 - TestLogin -WARN - result: test passed
+2018-05-30 11:14:09,528 - TestLogin -INFO - **********************************
+2018-05-30 11:14:09,528 - TestLogin -WARN - 1 tests passed and 0 failed total: 1
+2018-05-30 11:14:09,528 - TestLogin -INFO - **********************************
+2018-05-30 11:14:09,789 - TestNavigation -INFO - test: createModifyTicket
+2018-05-30 11:14:11,243 - TestNavigation -INFO - step: button clicked
+2018-05-30 11:14:11,299 - TestNavigation -WARN - Test passed
+2018-05-30 11:14:11,304 - TestNavigation -INFO - **********************************
+2018-05-30 11:14:11,537 - TestNavigation -INFO - test: modifyTicket
+2018-05-30 11:14:17,621 - TestNavigation -INFO - **********************************
+2018-05-30 11:14:17,621 - TestNavigation -WARN - 1 tests passed and 0 failed total: 2
+2018-05-30 11:14:17,622 - TestNavigation -INFO - **********************************
+2018-05-30 11:20:26,444 - TestNavigation -INFO - test: ipPhoneFunctionalities
+2018-05-30 11:20:35,946 - TestNavigation -WARN - Test passed
+2018-05-30 11:20:35,951 - TestNavigation -INFO - **********************************
+2018-05-30 11:20:36,420 - TestNavigation -INFO - test: ipPhoneLogonCredentials
+2018-05-30 11:20:45,140 - TestNavigation -WARN - Test passed
+2018-05-30 11:20:45,142 - TestNavigation -INFO - **********************************
+2018-05-30 11:20:45,726 - TestNavigation -INFO - test: ipPhoneLogonErrorMessage
+2018-05-30 11:20:53,926 - TestNavigation -WARN - Test passed
+2018-05-30 11:20:53,927 - TestNavigation -INFO - **********************************
+2018-05-30 11:20:54,416 - TestNavigation -INFO - test: ipPhoneOther
+2018-05-30 11:21:02,771 - TestNavigation -WARN - Test passed
+2018-05-30 11:21:02,776 - TestNavigation -INFO - **********************************
+2018-05-30 11:21:03,388 - TestNavigation -INFO - test: reportBPC
+2018-05-30 11:21:11,398 - TestNavigation -WARN - Test passed
+2018-05-30 11:21:11,399 - TestNavigation -INFO - **********************************
+2018-05-30 11:21:11,849 - TestNavigation -INFO - test: reportCitrixOneApp
+2018-05-30 11:21:20,109 - TestNavigation -WARN - Test passed
+2018-05-30 11:21:20,112 - TestNavigation -INFO - **********************************
+2018-05-30 11:21:20,488 - TestNavigation -INFO - test: reportCitrixOtherOneApp
+2018-05-30 11:21:30,451 - TestNavigation -WARN - Test passed
+2018-05-30 11:21:30,452 - TestNavigation -INFO - **********************************
+2018-05-30 11:21:31,066 - TestNavigation -INFO - test: reportCitrixOtherSeveralApps
+2018-05-30 11:21:40,052 - TestNavigation -WARN - Test passed
+2018-05-30 11:21:40,055 - TestNavigation -INFO - **********************************
+2018-05-30 11:21:40,281 - TestNavigation -INFO - test: reportCitrixSeveralApps
+2018-05-30 11:21:46,774 - TestNavigation -WARN - Test passed
+2018-05-30 11:21:46,776 - TestNavigation -INFO - **********************************
+2018-05-30 11:21:46,990 - TestNavigation -INFO - test: reportClickView
+2018-05-30 11:21:53,840 - TestNavigation -WARN - Test passed
+2018-05-30 11:21:53,840 - TestNavigation -INFO - **********************************
+2018-05-30 11:21:54,341 - TestNavigation -INFO - test: reportClockWorks
+2018-05-30 11:21:55,749 - TestNavigation -INFO - **********************************
+2018-05-30 11:21:55,965 - TestNavigation -INFO - test: reportLyris
+2018-05-30 11:22:02,783 - TestNavigation -WARN - Test passed
+2018-05-30 11:22:02,783 - TestNavigation -INFO - **********************************
+2018-05-30 11:22:03,006 - TestNavigation -INFO - test: reportMailChimp
+2018-05-30 11:22:30,924 - TestNavigation -INFO - **********************************
+2018-05-30 11:22:31,315 - TestNavigation -INFO - test: reportMobaTime
+2018-05-30 11:22:55,381 - TestNavigation -INFO - **********************************
+2018-05-30 11:22:55,734 - TestNavigation -INFO - test: reportOfficeAppIncident
+2018-05-30 11:22:57,067 - TestNavigation -INFO - **********************************
+2018-05-30 11:22:57,318 - TestNavigation -INFO - test: reportProConcept
+2018-05-30 11:23:03,341 - TestNavigation -WARN - Test passed
+2018-05-30 11:23:03,342 - TestNavigation -INFO - **********************************
+2018-05-30 11:23:03,575 - TestNavigation -INFO - test: reportScorecards
+2018-05-30 11:23:26,156 - TestNavigation -INFO - **********************************
+2018-05-30 11:23:26,542 - TestNavigation -INFO - test: reportSkypeCredentials
+2018-05-30 11:23:28,189 - TestNavigation -INFO - **********************************
+2018-05-30 11:23:28,421 - TestNavigation -INFO - test: reportSkypeErrorMessage
+2018-05-30 11:23:35,882 - TestNavigation -WARN - Test passed
+2018-05-30 11:23:35,882 - TestNavigation -INFO - **********************************
+2018-05-30 11:23:36,103 - TestNavigation -INFO - test: reportSkypeFunctionalities
+2018-05-30 11:24:03,939 - TestNavigation -INFO - **********************************
+2018-05-30 11:24:04,410 - TestNavigation -INFO - test: reportSkypeOther
+2018-05-30 11:24:32,110 - TestNavigation -INFO - **********************************
+2018-05-30 11:24:32,449 - TestNavigation -INFO - test: reportCitrixOtherAllApps
+2018-05-30 11:24:33,936 - TestNavigation -INFO - **********************************
+2018-05-30 11:24:34,165 - TestNavigation -INFO - test: reportHRForms
+2018-05-30 11:24:51,953 - TestNavigation -INFO - **********************************
+2018-05-30 11:24:51,953 - TestNavigation -WARN - 13 tests passed and 0 failed total: 23
+2018-05-30 11:24:51,953 - TestNavigation -INFO - **********************************

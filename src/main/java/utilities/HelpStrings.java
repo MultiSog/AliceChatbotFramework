@@ -8,7 +8,6 @@ public class HelpStrings {
 	//NavigationTreeStrings
 	public static final String NTReportAnIncident = "Report an Incident";
 	public static final String NTSubmitARequest = "Submit a Request";
-//	public static final String NTModifyCreateTicket = "Modify a ticket";
 	public static final String NTCreateTicket = "Create a ticket";
 	public static final String NTModifyTicket = "Modify a ticket";
 	public static final String NTIncident = "Incident";

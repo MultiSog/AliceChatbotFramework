@@ -131,11 +131,16 @@ public class TestNavigation {
 	@Test(dependsOnMethods = { "createModifyTicket" }, groups = {})
 	public void modifyTicket() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
-
 		NavigationTree.clickButton(NTModifyTicket, chatbot);
 		chatbot.waitForResponse();
-		assertEquals(chatbot.lastResponseContains("Do you want to update a request or an incident ticket?"), true);
-		if (chatbot.lastResponseContains("Do you want to update a request or an incident ticket?")) {
+		try {
+			chatbot.wait(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		assertEquals(chatbot.lastResponseContains("Do you want to update"), true);
+		if (chatbot.lastResponseContains("Do you want to update")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {

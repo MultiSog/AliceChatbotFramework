@@ -46,8 +46,8 @@ public class TestLogin {
 	@BeforeClass
 	public void configLogger() {
 		PropertyConfigurator.configure("Log4j.properties");
-		passes=0;
-		fails=0;
+		passes = 0;
+		fails = 0;
 	}
 
 	@AfterMethod
@@ -61,7 +61,7 @@ public class TestLogin {
 
 	@Test(testName = "CHAT-28.1 Correct Login", groups = { "Login" })
 	public void correctLogin() {
-		logger.info("test: "+Thread.currentThread().getStackTrace()[1].getMethodName());
+		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		page.enterUserId(USERID);
 		page.enterPassword(PASSWORD);
 		page.clickLoginButton();
@@ -86,7 +86,7 @@ public class TestLogin {
 
 	@Test(testName = "Chat-28.2 Wrong Login")
 	public void wrongLogin() {
-		logger.info("test: "+Thread.currentThread().getStackTrace()[1].getMethodName());
+		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		page.enterUserId(USERID);
 		page.enterPassword("wrongPassword");
 		page.clickLoginButton();
@@ -99,7 +99,7 @@ public class TestLogin {
 			loaded = false;
 		}
 		assertEquals(loaded, false);
-		
+
 		if (!loaded) {
 			logger.warn("result: test passed");
 			passes++;

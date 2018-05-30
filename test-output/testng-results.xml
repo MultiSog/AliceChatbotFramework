@@ -1,192 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="70" passed="41" failed="8" skipped="21">
+<testng-results ignored="0" total="28" passed="13" failed="10" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-05-30T07:56:17Z" name="Default suite" finished-at="2018-05-30T08:02:55Z" duration-ms="398175">
+  <suite started-at="2018-05-30T09:20:14Z" name="Default suite" finished-at="2018-05-30T09:24:52Z" duration-ms="278026">
     <groups>
-      <group name="Navigation">
-        <method signature="TestNavigation.createModifyTicket()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="createModifyTicket" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.createTicket()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="createTicket" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.modifyTicket()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="modifyTicket" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.modifyIncident()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="modifyIncident" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.modifyRequest()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="modifyRequest" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.reportAnIncident()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="reportAnIncident" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.incidentHardware()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="incidentHardware" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.incidentNetwork()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="incidentNetwork" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.incidentSecurity()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="incidentSecurity" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.activeDirectory()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="activeDirectory" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.addEmail()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="addEmail" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.antivirus()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="antivirus" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.changeLastName()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="changeLastName" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.changeNameManager()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="changeNameManager" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.changeOfficeAddress()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="changeOfficeAddress" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.exchange()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="exchange" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.accessMailboxExhange()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="accessMailboxExhange" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.accessSharedCalendar()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="accessSharedCalendar" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.calendarAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="calendarAccess" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.grantAccessFolder()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="grantAccessFolder" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.incidentSoftware()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="incidentSoftware" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.businessApp()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="businessApp" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.citrix()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="citrix" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.communicationApp()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="communicationApp" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.issueEmails()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="issueEmails" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.notSpam()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="notSpam" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.officeApp()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="officeApp" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.otherExchange()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="otherExchange" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.otherSoftware()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="otherSoftware" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.problemAV()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="problemAV" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.resetPassword()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="resetPassword" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.sendAsPermissions()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="sendAsPermissions" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.spam()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="spam" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.submitARequest()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="submitARequest" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.communication()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="communication" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.dataManagement()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="dataManagement" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.emailMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="emailMailbox" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.createDistributionList()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="createDistributionList" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.createEmailIntoFolder()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="createEmailIntoFolder" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.createSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="createSharedMailbox" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.deleteSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="deleteSharedMailbox" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.disableSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="disableSharedMailbox" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.grantSharedMailboxAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="grantSharedMailboxAccess" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.grantUserMailboxAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="grantUserMailboxAccess" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.hardwareRequest()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="hardwareRequest" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.infrastructure()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="infrastructure" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.ipTelephonyServices()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="ipTelephonyServices" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.managedBusinessApplication()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="managedBusinessApplication" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.bPC()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="bPC" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.clickview()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="clickview" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.clockworks()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="clockworks" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.general()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="general" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.imis()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="imis" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.lyris()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="lyris" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.mailchimp()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="mailchimp" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.mobatime()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="mobatime" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.modifyExistingMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="modifyExistingMailbox" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.otherEmailRequest()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="otherEmailRequest" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.proconcept()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="proconcept" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.registerNewDomain()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="registerNewDomain" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.revokeSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="revokeSharedMailbox" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.scorecards()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="scorecards" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.unlockAccount()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="unlockAccount" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.vPN()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="vPN" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.badPerformance()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="badPerformance" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.otherVPN()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="otherVPN" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.unableLogin()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="unableLogin" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.virusFound()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="virusFound" class="testcases.TestNavigation"/>
-      </group> <!-- Navigation -->
-      <group name="Login">
-        <method signature="TestLogin.correctLogin()[pri:0, instance:testcases.TestLogin@2accdbb5]" name="correctLogin" class="testcases.TestLogin"/>
-      </group> <!-- Login -->
-      <group name="MBA">
-        <method signature="TestNavigation.bPC()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="bPC" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.clickview()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="clickview" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.clockworks()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="clockworks" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.general()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="general" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.imis()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="imis" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.lyris()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="lyris" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.mailchimp()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="mailchimp" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.mobatime()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="mobatime" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.proconcept()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="proconcept" class="testcases.TestNavigation"/>
-        <method signature="TestNavigation.scorecards()[pri:0, instance:testcases.TestNavigation@1e6454ec]" name="scorecards" class="testcases.TestNavigation"/>
-      </group> <!-- MBA -->
+      <group name="officeapps">
+        <method signature="TestReportIncident.reportExcelIncident()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportExcelIncident" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportOutlookIncidentBrowser()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportOutlookIncidentBrowser" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportOutlookIncidentIcon()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportOutlookIncidentIcon" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportPowerpointIncident()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportPowerpointIncident" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportWordIncident()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportWordIncident" class="testcases.TestReportIncident"/>
+      </group> <!-- officeapps -->
+      <group name="skype">
+        <method signature="TestReportIncident.reportSkypeCredentials()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportSkypeCredentials" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportSkypeErrorMessage()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportSkypeErrorMessage" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportSkypeFunctionalities()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportSkypeFunctionalities" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportSkypeOther()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportSkypeOther" class="testcases.TestReportIncident"/>
+      </group> <!-- skype -->
+      <group name="officeapp">
+        <method signature="TestReportIncident.reportOfficeAppIncident()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportOfficeAppIncident" class="testcases.TestReportIncident"/>
+      </group> <!-- officeapp -->
+      <group name="ip phone">
+        <method signature="TestReportIncident.ipPhoneFunctionalities()[pri:0, instance:testcases.TestReportIncident@7690781]" name="ipPhoneFunctionalities" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.ipPhoneLogonCredentials()[pri:0, instance:testcases.TestReportIncident@7690781]" name="ipPhoneLogonCredentials" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.ipPhoneLogonErrorMessage()[pri:0, instance:testcases.TestReportIncident@7690781]" name="ipPhoneLogonErrorMessage" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.ipPhoneOther()[pri:0, instance:testcases.TestReportIncident@7690781]" name="ipPhoneOther" class="testcases.TestReportIncident"/>
+      </group> <!-- ip phone -->
+      <group name="citrix">
+        <method signature="TestReportIncident.reportCitrixOneApp()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportCitrixOneApp" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportCitrixOtherOneApp()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportCitrixOtherOneApp" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportCitrixOtherSeveralApps()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportCitrixOtherSeveralApps" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportCitrixSeveralApps()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportCitrixSeveralApps" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportCitrixOtherAllApps()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportCitrixOtherAllApps" class="testcases.TestReportIncident"/>
+      </group> <!-- citrix -->
+      <group name="business app">
+        <method signature="TestReportIncident.reportBPC()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportBPC" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportClickView()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportClickView" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportClockWorks()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportClockWorks" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportLyris()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportLyris" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportMailChimp()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportMailChimp" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportMobaTime()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportMobaTime" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportProConcept()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportProConcept" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportScorecards()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportScorecards" class="testcases.TestReportIncident"/>
+        <method signature="TestReportIncident.reportHRForms()[pri:0, instance:testcases.TestReportIncident@7690781]" name="reportHRForms" class="testcases.TestReportIncident"/>
+      </group> <!-- business app -->
     </groups>
-    <test started-at="2018-05-30T07:56:17Z" name="Default test" finished-at="2018-05-30T08:02:55Z" duration-ms="398175">
-      <class name="testcases.TestLogin">
-        <test-method is-config="true" signature="configLogger()[pri:0, instance:testcases.TestLogin@2accdbb5]" started-at="2018-05-30T07:56:34Z" name="configLogger" finished-at="2018-05-30T07:56:34Z" duration-ms="240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configLogger -->
-        <test-method is-config="true" signature="loadVariables()[pri:0, instance:testcases.TestLogin@2accdbb5]" started-at="2018-05-30T07:56:34Z" name="loadVariables" finished-at="2018-05-30T07:56:48Z" duration-ms="14512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadVariables -->
-        <test-method signature="correctLogin()[pri:0, instance:testcases.TestLogin@2accdbb5]" started-at="2018-05-30T07:56:48Z" name="correctLogin" finished-at="2018-05-30T07:56:55Z" duration-ms="6991" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- correctLogin -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TestLogin@2accdbb5]" started-at="2018-05-30T07:56:55Z" name="closeDriver" finished-at="2018-05-30T07:57:00Z" duration-ms="4279" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="loadVariables()[pri:0, instance:testcases.TestLogin@2accdbb5]" started-at="2018-05-30T07:57:00Z" name="loadVariables" finished-at="2018-05-30T07:57:29Z" duration-ms="29343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadVariables -->
-        <test-method signature="wrongLogin()[pri:0, instance:testcases.TestLogin@2accdbb5]" started-at="2018-05-30T07:57:29Z" name="wrongLogin" finished-at="2018-05-30T07:57:46Z" duration-ms="17379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wrongLogin -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TestLogin@2accdbb5]" started-at="2018-05-30T07:57:46Z" name="closeDriver" finished-at="2018-05-30T07:57:50Z" duration-ms="3803" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="logResults()[pri:0, instance:testcases.TestLogin@2accdbb5]" started-at="2018-05-30T07:57:50Z" name="logResults" finished-at="2018-05-30T07:57:50Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logResults -->
-      </class> <!-- testcases.TestLogin -->
-      <class name="testcases.TestNavigation">
-        <test-method is-config="true" signature="loadPage()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:56:17Z" name="loadPage" finished-at="2018-05-30T07:56:34Z" duration-ms="16226" status="PASS">
+    <test started-at="2018-05-30T09:20:14Z" name="Default test" finished-at="2018-05-30T09:24:52Z" duration-ms="278026">
+      <class name="testcases.TestReportIncident">
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:14Z" name="loadPage" finished-at="2018-05-30T09:20:25Z" duration-ms="11127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadPage -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:57:50Z" name="reload" finished-at="2018-05-30T07:57:53Z" duration-ms="3198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method is-config="true" signature="configLogger()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:57:50Z" name="configLogger" finished-at="2018-05-30T07:57:50Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configLogger()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:25Z" name="configLogger" finished-at="2018-05-30T09:20:26Z" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configLogger -->
-        <test-method signature="createTicket()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:57:53Z" name="createTicket" finished-at="2018-05-30T07:58:02Z" duration-ms="8750" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createTicket -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:02Z" name="reload" finished-at="2018-05-30T07:58:03Z" duration-ms="830" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:26Z" name="reload" finished-at="2018-05-30T09:20:26Z" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:02Z" name="logSeparator" finished-at="2018-05-30T07:58:02Z" duration-ms="0" status="PASS">
+        <test-method signature="ipPhoneFunctionalities()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:26Z" name="ipPhoneFunctionalities" finished-at="2018-05-30T09:20:35Z" duration-ms="9510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ipPhoneFunctionalities -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:35Z" name="logSeparator" finished-at="2018-05-30T09:20:35Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method signature="createModifyTicket()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:03Z" name="createModifyTicket" depends-on-groups="Login" finished-at="2018-05-30T07:58:06Z" duration-ms="2970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createModifyTicket -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:06Z" name="reload" finished-at="2018-05-30T07:58:07Z" duration-ms="732" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:35Z" name="reload" finished-at="2018-05-30T09:20:36Z" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:06Z" name="logSeparator" finished-at="2018-05-30T07:58:06Z" duration-ms="0" status="PASS">
+        <test-method signature="ipPhoneLogonCredentials()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:36Z" name="ipPhoneLogonCredentials" finished-at="2018-05-30T09:20:45Z" duration-ms="8725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ipPhoneLogonCredentials -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:45Z" name="logSeparator" finished-at="2018-05-30T09:20:45Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method signature="reportAnIncident()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:07Z" name="reportAnIncident" depends-on-groups="Login" finished-at="2018-05-30T07:58:09Z" duration-ms="2270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportAnIncident -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:09Z" name="logSeparator" finished-at="2018-05-30T07:58:09Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:09Z" name="reload" finished-at="2018-05-30T07:58:10Z" duration-ms="691" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:45Z" name="reload" finished-at="2018-05-30T09:20:45Z" duration-ms="581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="submitARequest()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:10Z" name="submitARequest" depends-on-groups="Login" finished-at="2018-05-30T07:58:12Z" duration-ms="2871" status="PASS">
+        <test-method signature="ipPhoneLogonErrorMessage()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:45Z" name="ipPhoneLogonErrorMessage" finished-at="2018-05-30T09:20:53Z" duration-ms="8203" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitARequest -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:12Z" name="logSeparator" finished-at="2018-05-30T07:58:12Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:12Z" name="reload" finished-at="2018-05-30T07:58:13Z" duration-ms="823" status="PASS">
+        </test-method> <!-- ipPhoneLogonErrorMessage -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:53Z" name="reload" finished-at="2018-05-30T09:20:54Z" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="modifyTicket()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:13Z" name="modifyTicket" finished-at="2018-05-30T07:58:20Z" depends-on-methods="testcases.TestNavigation.createModifyTicket" duration-ms="7076" status="FAIL">
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:53Z" name="logSeparator" finished-at="2018-05-30T09:20:53Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+        <test-method signature="ipPhoneOther()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:20:54Z" name="ipPhoneOther" finished-at="2018-05-30T09:21:02Z" duration-ms="8357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ipPhoneOther -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:02Z" name="logSeparator" finished-at="2018-05-30T09:21:02Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:02Z" name="reload" finished-at="2018-05-30T09:21:03Z" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reload -->
+        <test-method signature="reportBPC()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:03Z" name="reportBPC" finished-at="2018-05-30T09:21:11Z" duration-ms="8013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBPC -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:11Z" name="logSeparator" finished-at="2018-05-30T09:21:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:11Z" name="reload" finished-at="2018-05-30T09:21:11Z" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reload -->
+        <test-method signature="reportCitrixOneApp()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:11Z" name="reportCitrixOneApp" finished-at="2018-05-30T09:21:20Z" duration-ms="8262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportCitrixOneApp -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:20Z" name="logSeparator" finished-at="2018-05-30T09:21:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:20Z" name="reload" finished-at="2018-05-30T09:21:20Z" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reload -->
+        <test-method signature="reportCitrixOtherOneApp()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:20Z" name="reportCitrixOtherOneApp" finished-at="2018-05-30T09:21:30Z" duration-ms="9963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportCitrixOtherOneApp -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:30Z" name="logSeparator" finished-at="2018-05-30T09:21:30Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:30Z" name="reload" finished-at="2018-05-30T09:21:31Z" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reload -->
+        <test-method signature="reportCitrixOtherSeveralApps()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:31Z" name="reportCitrixOtherSeveralApps" finished-at="2018-05-30T09:21:40Z" duration-ms="8988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportCitrixOtherSeveralApps -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:40Z" name="logSeparator" finished-at="2018-05-30T09:21:40Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:40Z" name="reload" finished-at="2018-05-30T09:21:40Z" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reload -->
+        <test-method signature="reportCitrixSeveralApps()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:40Z" name="reportCitrixSeveralApps" finished-at="2018-05-30T09:21:46Z" duration-ms="6496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportCitrixSeveralApps -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:46Z" name="logSeparator" finished-at="2018-05-30T09:21:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:46Z" name="reload" finished-at="2018-05-30T09:21:46Z" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reload -->
+        <test-method signature="reportClickView()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:46Z" name="reportClickView" finished-at="2018-05-30T09:21:53Z" duration-ms="6853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClickView -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:53Z" name="logSeparator" finished-at="2018-05-30T09:21:53Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:53Z" name="reload" finished-at="2018-05-30T09:21:54Z" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reload -->
+        <test-method signature="reportClockWorks()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:54Z" name="reportClockWorks" finished-at="2018-05-30T09:21:55Z" duration-ms="1405" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <button class="choiceBtn" ng-click="vm.sendChoice('software')">...</button> is not clickable at point (320, 358). Other element would receive the click: <p>...</p>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LBNL03409', ip: '10.32.61.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\SDECORTE\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 8274e82f8607967f22b6963f1e045480]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button class="choiceBtn" ng-click="vm.sendChoice('software')">...</button> is not clickable at point (320, 358). Other element would receive the click: <p>...</p>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LBNL03409', ip: '10.32.61.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\SDECORTE\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 8274e82f8607967f22b6963f1e045480
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at model.Chatbot.clickButton(Chatbot.java:82)
+at utilities.NavigationTree.clickButton(NavigationTree.java:95)
+at utilities.NavigationTree.clickButton(NavigationTree.java:94)
+at testcases.TestReportIncident.reportClockWorks(TestReportIncident.java:680)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClockWorks -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:55Z" name="logSeparator" finished-at="2018-05-30T09:21:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:55Z" name="reload" finished-at="2018-05-30T09:21:55Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reload -->
+        <test-method signature="reportLyris()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:21:55Z" name="reportLyris" finished-at="2018-05-30T09:22:02Z" duration-ms="6821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportLyris -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:02Z" name="logSeparator" finished-at="2018-05-30T09:22:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:02Z" name="reload" finished-at="2018-05-30T09:22:03Z" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reload -->
+        <test-method signature="reportMailChimp()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:03Z" name="reportMailChimp" finished-at="2018-05-30T09:22:30Z" duration-ms="27920" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -199,7 +284,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
 at org.testng.Assert.assertEquals(Assert.java:578)
-at testcases.TestNavigation.modifyTicket(TestNavigation.java:134)
+at testcases.TestReportIncident.reportMailChimp(TestReportIncident.java:642)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -230,16 +315,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modifyTicket -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:20Z" name="logSeparator" finished-at="2018-05-30T07:58:20Z" duration-ms="0" status="PASS">
+        </test-method> <!-- reportMailChimp -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:30Z" name="logSeparator" finished-at="2018-05-30T09:22:30Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:20Z" name="reload" finished-at="2018-05-30T07:58:21Z" duration-ms="742" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:30Z" name="reload" finished-at="2018-05-30T09:22:31Z" duration-ms="381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="incidentHardware()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:21Z" name="incidentHardware" finished-at="2018-05-30T07:58:24Z" depends-on-methods="testcases.TestNavigation.reportAnIncident" duration-ms="3315" status="FAIL">
+        <test-method signature="reportMobaTime()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:31Z" name="reportMobaTime" finished-at="2018-05-30T09:22:55Z" duration-ms="24066" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -252,7 +337,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
 at org.testng.Assert.assertEquals(Assert.java:578)
-at testcases.TestNavigation.incidentHardware(TestNavigation.java:590)
+at testcases.TestReportIncident.reportMobaTime(TestReportIncident.java:619)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -283,64 +368,108 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incidentHardware -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:24Z" name="logSeparator" finished-at="2018-05-30T07:58:24Z" duration-ms="2" status="PASS">
+        </test-method> <!-- reportMobaTime -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:55Z" name="logSeparator" finished-at="2018-05-30T09:22:55Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:24Z" name="reload" finished-at="2018-05-30T07:58:25Z" duration-ms="872" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:55Z" name="reload" finished-at="2018-05-30T09:22:55Z" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="incidentNetwork()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:25Z" name="incidentNetwork" finished-at="2018-05-30T07:58:29Z" depends-on-methods="testcases.TestNavigation.reportAnIncident" duration-ms="3324" status="PASS">
+        <test-method signature="reportOfficeAppIncident()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:55Z" name="reportOfficeAppIncident" finished-at="2018-05-30T09:22:57Z" duration-ms="1335" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <button class="choiceBtn" ng-click="vm.sendChoice('software')">...</button> is not clickable at point (320, 286). Other element would receive the click: <p>...</p>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LBNL03409', ip: '10.32.61.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\SDECORTE\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 8274e82f8607967f22b6963f1e045480]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button class="choiceBtn" ng-click="vm.sendChoice('software')">...</button> is not clickable at point (320, 286). Other element would receive the click: <p>...</p>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LBNL03409', ip: '10.32.61.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\SDECORTE\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 8274e82f8607967f22b6963f1e045480
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at model.Chatbot.clickButton(Chatbot.java:82)
+at utilities.NavigationTree.clickButton(NavigationTree.java:95)
+at utilities.NavigationTree.clickButton(NavigationTree.java:94)
+at testcases.TestReportIncident.reportOfficeAppIncident(TestReportIncident.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incidentNetwork -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:29Z" name="reload" finished-at="2018-05-30T07:58:29Z" duration-ms="827" status="PASS">
+        </test-method> <!-- reportOfficeAppIncident -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:57Z" name="reload" finished-at="2018-05-30T09:22:57Z" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:29Z" name="logSeparator" finished-at="2018-05-30T07:58:29Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:57Z" name="logSeparator" finished-at="2018-05-30T09:22:57Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method signature="incidentSecurity()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:29Z" name="incidentSecurity" finished-at="2018-05-30T07:58:33Z" depends-on-methods="testcases.TestNavigation.reportAnIncident" duration-ms="3065" status="PASS">
+        <test-method signature="reportProConcept()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:22:57Z" name="reportProConcept" finished-at="2018-05-30T09:23:03Z" duration-ms="6023" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incidentSecurity -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:33Z" name="logSeparator" finished-at="2018-05-30T07:58:33Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:33Z" name="reload" finished-at="2018-05-30T07:58:33Z" duration-ms="975" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="incidentSoftware()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:33Z" name="incidentSoftware" finished-at="2018-05-30T07:58:37Z" depends-on-methods="testcases.TestNavigation.reportAnIncident" duration-ms="3318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- incidentSoftware -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:37Z" name="logSeparator" finished-at="2018-05-30T07:58:37Z" duration-ms="0" status="PASS">
+        </test-method> <!-- reportProConcept -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:03Z" name="logSeparator" finished-at="2018-05-30T09:23:03Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:37Z" name="reload" finished-at="2018-05-30T07:58:37Z" duration-ms="553" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:03Z" name="reload" finished-at="2018-05-30T09:23:03Z" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="communication()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:37Z" name="communication" finished-at="2018-05-30T07:58:40Z" depends-on-methods="testcases.TestNavigation.submitARequest" duration-ms="2720" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- communication -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:40Z" name="logSeparator" finished-at="2018-05-30T07:58:40Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:40Z" name="reload" finished-at="2018-05-30T07:58:41Z" duration-ms="905" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="dataManagement()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:41Z" name="dataManagement" finished-at="2018-05-30T07:58:44Z" depends-on-methods="testcases.TestNavigation.submitARequest" duration-ms="2719" status="FAIL">
+        <test-method signature="reportScorecards()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:03Z" name="reportScorecards" finished-at="2018-05-30T09:23:26Z" duration-ms="22584" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -353,7 +482,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
 at org.testng.Assert.assertEquals(Assert.java:578)
-at testcases.TestNavigation.dataManagement(TestNavigation.java:192)
+at testcases.TestReportIncident.reportScorecards(TestReportIncident.java:550)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -384,55 +513,64 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataManagement -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:44Z" name="logSeparator" finished-at="2018-05-30T07:58:44Z" duration-ms="3" status="PASS">
+        </test-method> <!-- reportScorecards -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:26Z" name="logSeparator" finished-at="2018-05-30T09:23:26Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:44Z" name="reload" finished-at="2018-05-30T07:58:45Z" duration-ms="791" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:26Z" name="reload" finished-at="2018-05-30T09:23:26Z" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="hardwareRequest()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:45Z" name="hardwareRequest" finished-at="2018-05-30T07:58:47Z" depends-on-methods="testcases.TestNavigation.submitARequest" duration-ms="2637" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hardwareRequest -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:47Z" name="logSeparator" finished-at="2018-05-30T07:58:47Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:47Z" name="reload" finished-at="2018-05-30T07:58:48Z" duration-ms="527" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="infrastructure()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:48Z" name="infrastructure" finished-at="2018-05-30T07:58:51Z" depends-on-methods="testcases.TestNavigation.submitARequest" duration-ms="3083" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- infrastructure -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:51Z" name="logSeparator" finished-at="2018-05-30T07:58:51Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:51Z" name="reload" finished-at="2018-05-30T07:58:51Z" duration-ms="568" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="managedBusinessApplication()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:51Z" name="managedBusinessApplication" finished-at="2018-05-30T07:58:54Z" depends-on-methods="testcases.TestNavigation.submitARequest" duration-ms="2774" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- managedBusinessApplication -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:54Z" name="logSeparator" finished-at="2018-05-30T07:58:54Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method signature="modifyIncident()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:54Z" name="modifyIncident" finished-at="2018-05-30T07:58:54Z" depends-on-methods="testcases.TestNavigation.modifyTicket" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
+        <test-method signature="reportSkypeCredentials()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:26Z" name="reportSkypeCredentials" finished-at="2018-05-30T09:23:28Z" duration-ms="1647" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Method TestNavigation.modifyIncident()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
+              <![CDATA[unknown error: Element <button class="choiceBtn" ng-click="vm.sendChoice('software')">...</button> is not clickable at point (320, 294). Other element would receive the click: <p>...</p>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LBNL03409', ip: '10.32.61.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\SDECORTE\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 8274e82f8607967f22b6963f1e045480]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.modifyIncident()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button class="choiceBtn" ng-click="vm.sendChoice('software')">...</button> is not clickable at point (320, 294). Other element would receive the click: <p>...</p>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LBNL03409', ip: '10.32.61.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\SDECORTE\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 8274e82f8607967f22b6963f1e045480
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at model.Chatbot.clickButton(Chatbot.java:82)
+at utilities.NavigationTree.clickButton(NavigationTree.java:95)
+at utilities.NavigationTree.clickButton(NavigationTree.java:94)
+at testcases.TestReportIncident.reportSkypeCredentials(TestReportIncident.java:392)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -452,70 +590,31 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modifyIncident -->
-        <test-method signature="modifyRequest()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:54Z" name="modifyRequest" finished-at="2018-05-30T07:58:54Z" depends-on-methods="testcases.TestNavigation.modifyTicket" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.modifyRequest()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.modifyRequest()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyRequest -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:54Z" name="reload" finished-at="2018-05-30T07:58:55Z" duration-ms="1253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="activeDirectory()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:58:55Z" name="activeDirectory" finished-at="2018-05-30T07:59:00Z" depends-on-methods="testcases.TestNavigation.incidentSecurity" duration-ms="4765" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- activeDirectory -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:00Z" name="logSeparator" finished-at="2018-05-30T07:59:00Z" duration-ms="0" status="PASS">
+        </test-method> <!-- reportSkypeCredentials -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:28Z" name="logSeparator" finished-at="2018-05-30T09:23:28Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:00Z" name="reload" finished-at="2018-05-30T07:59:01Z" duration-ms="573" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:28Z" name="reload" finished-at="2018-05-30T09:23:28Z" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="antivirus()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:01Z" name="antivirus" finished-at="2018-05-30T07:59:04Z" depends-on-methods="testcases.TestNavigation.incidentSecurity" duration-ms="3713" status="PASS">
+        <test-method signature="reportSkypeErrorMessage()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:28Z" name="reportSkypeErrorMessage" finished-at="2018-05-30T09:23:35Z" duration-ms="7461" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- antivirus -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:04Z" name="logSeparator" finished-at="2018-05-30T07:59:04Z" duration-ms="0" status="PASS">
+        </test-method> <!-- reportSkypeErrorMessage -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:35Z" name="logSeparator" finished-at="2018-05-30T09:23:35Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:04Z" name="reload" finished-at="2018-05-30T07:59:05Z" duration-ms="883" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:35Z" name="reload" finished-at="2018-05-30T09:23:36Z" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="exchange()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:05Z" name="exchange" finished-at="2018-05-30T07:59:13Z" depends-on-methods="testcases.TestNavigation.incidentSecurity" duration-ms="7896" status="FAIL">
+        <test-method signature="reportSkypeFunctionalities()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:23:36Z" name="reportSkypeFunctionalities" finished-at="2018-05-30T09:24:03Z" duration-ms="27833" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -528,7 +627,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
 at org.testng.Assert.assertEquals(Assert.java:578)
-at testcases.TestNavigation.exchange(TestNavigation.java:735)
+at testcases.TestReportIncident.reportSkypeFunctionalities(TestReportIncident.java:352)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -559,76 +658,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- exchange -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:13Z" name="logSeparator" finished-at="2018-05-30T07:59:13Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:13Z" name="reload" finished-at="2018-05-30T07:59:14Z" duration-ms="954" status="PASS">
+        </test-method> <!-- reportSkypeFunctionalities -->
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:03Z" name="reload" finished-at="2018-05-30T09:24:04Z" duration-ms="468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="businessApp()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:14Z" name="businessApp" finished-at="2018-05-30T07:59:18Z" depends-on-methods="testcases.TestNavigation.incidentSoftware" duration-ms="3823" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- businessApp -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:18Z" name="logSeparator" finished-at="2018-05-30T07:59:18Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:03Z" name="logSeparator" finished-at="2018-05-30T09:24:03Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:18Z" name="reload" finished-at="2018-05-30T07:59:19Z" duration-ms="560" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="citrix()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:19Z" name="citrix" finished-at="2018-05-30T07:59:22Z" depends-on-methods="testcases.TestNavigation.incidentSoftware" duration-ms="3846" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- citrix -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:22Z" name="reload" finished-at="2018-05-30T07:59:26Z" duration-ms="4019" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:22Z" name="logSeparator" finished-at="2018-05-30T07:59:22Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method signature="communicationApp()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:26Z" name="communicationApp" finished-at="2018-05-30T07:59:30Z" depends-on-methods="testcases.TestNavigation.incidentSoftware" duration-ms="3929" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- communicationApp -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:30Z" name="reload" finished-at="2018-05-30T07:59:31Z" duration-ms="594" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:30Z" name="logSeparator" finished-at="2018-05-30T07:59:30Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method signature="officeApp()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:31Z" name="officeApp" finished-at="2018-05-30T07:59:35Z" depends-on-methods="testcases.TestNavigation.incidentSoftware" duration-ms="3950" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- officeApp -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:35Z" name="logSeparator" finished-at="2018-05-30T07:59:35Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:35Z" name="reload" finished-at="2018-05-30T07:59:36Z" duration-ms="780" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="otherSoftware()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:36Z" name="otherSoftware" finished-at="2018-05-30T07:59:39Z" depends-on-methods="testcases.TestNavigation.incidentSoftware" duration-ms="3819" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- otherSoftware -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:39Z" name="logSeparator" finished-at="2018-05-30T07:59:39Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:39Z" name="reload" finished-at="2018-05-30T07:59:40Z" duration-ms="675" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="emailMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:40Z" name="emailMailbox" finished-at="2018-05-30T07:59:44Z" depends-on-methods="testcases.TestNavigation.communication" duration-ms="3698" status="FAIL">
+        <test-method signature="reportSkypeOther()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:04Z" name="reportSkypeOther" finished-at="2018-05-30T09:24:32Z" duration-ms="27703" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -641,7 +680,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
 at org.testng.Assert.assertEquals(Assert.java:578)
-at testcases.TestNavigation.emailMailbox(TestNavigation.java:250)
+at testcases.TestReportIncident.reportSkypeOther(TestReportIncident.java:377)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -672,64 +711,96 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- emailMailbox -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:44Z" name="logSeparator" finished-at="2018-05-30T07:59:44Z" duration-ms="1" status="PASS">
+        </test-method> <!-- reportSkypeOther -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:32Z" name="logSeparator" finished-at="2018-05-30T09:24:32Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:44Z" name="reload" finished-at="2018-05-30T07:59:45Z" duration-ms="835" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:32Z" name="reload" finished-at="2018-05-30T09:24:32Z" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="ipTelephonyServices()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:45Z" name="ipTelephonyServices" finished-at="2018-05-30T07:59:50Z" depends-on-methods="testcases.TestNavigation.communication" duration-ms="5540" status="PASS">
+        <test-method signature="reportCitrixOtherAllApps()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:32Z" name="reportCitrixOtherAllApps" finished-at="2018-05-30T09:24:33Z" duration-ms="1492" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <button class="choiceBtn" ng-click="vm.sendChoice('software')">...</button> is not clickable at point (320, 350). Other element would receive the click: <button class="choiceBtn" ng-click="vm.sendChoice('security')">...</button>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LBNL03409', ip: '10.32.61.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\SDECORTE\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 8274e82f8607967f22b6963f1e045480]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button class="choiceBtn" ng-click="vm.sendChoice('software')">...</button> is not clickable at point (320, 350). Other element would receive the click: <button class="choiceBtn" ng-click="vm.sendChoice('security')">...</button>
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LBNL03409', ip: '10.32.61.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\SDECORTE\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 8274e82f8607967f22b6963f1e045480
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at model.Chatbot.clickButton(Chatbot.java:82)
+at utilities.NavigationTree.clickButton(NavigationTree.java:95)
+at utilities.NavigationTree.clickButton(NavigationTree.java:94)
+at testcases.TestReportIncident.reportCitrixOtherAllApps(TestReportIncident.java:315)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ipTelephonyServices -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:50Z" name="logSeparator" finished-at="2018-05-30T07:59:50Z" duration-ms="1" status="PASS">
+        </test-method> <!-- reportCitrixOtherAllApps -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:33Z" name="logSeparator" finished-at="2018-05-30T09:24:33Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:50Z" name="reload" finished-at="2018-05-30T07:59:51Z" duration-ms="1150" status="PASS">
+        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:33Z" name="reload" finished-at="2018-05-30T09:24:34Z" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reload -->
-        <test-method signature="bPC()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:51Z" name="bPC" finished-at="2018-05-30T07:59:55Z" depends-on-methods="testcases.TestNavigation.managedBusinessApplication" duration-ms="4058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bPC -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:55Z" name="logSeparator" finished-at="2018-05-30T07:59:55Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:55Z" name="reload" finished-at="2018-05-30T07:59:57Z" duration-ms="1208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="clickview()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T07:59:57Z" name="clickview" finished-at="2018-05-30T08:00:02Z" depends-on-methods="testcases.TestNavigation.managedBusinessApplication" duration-ms="4881" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickview -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:02Z" name="logSeparator" finished-at="2018-05-30T08:00:02Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:02Z" name="reload" finished-at="2018-05-30T08:00:02Z" duration-ms="830" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="clockworks()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:02Z" name="clockworks" finished-at="2018-05-30T08:00:07Z" depends-on-methods="testcases.TestNavigation.managedBusinessApplication" duration-ms="4196" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clockworks -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:07Z" name="logSeparator" finished-at="2018-05-30T08:00:07Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:07Z" name="reload" finished-at="2018-05-30T08:00:07Z" duration-ms="545" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="general()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:07Z" name="general" finished-at="2018-05-30T08:00:13Z" depends-on-methods="testcases.TestNavigation.managedBusinessApplication" duration-ms="5403" status="FAIL">
+        <test-method signature="reportHRForms()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:34Z" name="reportHRForms" finished-at="2018-05-30T09:24:51Z" duration-ms="17788" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -742,7 +813,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
 at org.testng.Assert.assertEquals(Assert.java:578)
-at testcases.TestNavigation.general(TestNavigation.java:486)
+at testcases.TestReportIncident.reportHRForms(TestReportIncident.java:573)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -773,919 +844,175 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- general -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:13Z" name="logSeparator" finished-at="2018-05-30T08:00:13Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:13Z" name="reload" finished-at="2018-05-30T08:00:13Z" duration-ms="761" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="imis()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:13Z" name="imis" finished-at="2018-05-30T08:00:20Z" depends-on-methods="testcases.TestNavigation.managedBusinessApplication" duration-ms="7092" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at testcases.TestNavigation.imis(TestNavigation.java:500)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- imis -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:20Z" name="logSeparator" finished-at="2018-05-30T08:00:20Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:20Z" name="reload" finished-at="2018-05-30T08:00:21Z" duration-ms="791" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="lyris()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:21Z" name="lyris" finished-at="2018-05-30T08:00:25Z" depends-on-methods="testcases.TestNavigation.managedBusinessApplication" duration-ms="3483" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lyris -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:25Z" name="logSeparator" finished-at="2018-05-30T08:00:25Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:25Z" name="reload" finished-at="2018-05-30T08:00:25Z" duration-ms="765" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="mailchimp()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:25Z" name="mailchimp" finished-at="2018-05-30T08:00:29Z" depends-on-methods="testcases.TestNavigation.managedBusinessApplication" duration-ms="4004" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mailchimp -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:29Z" name="logSeparator" finished-at="2018-05-30T08:00:29Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:29Z" name="reload" finished-at="2018-05-30T08:00:30Z" duration-ms="487" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="mobatime()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:30Z" name="mobatime" finished-at="2018-05-30T08:00:33Z" depends-on-methods="testcases.TestNavigation.managedBusinessApplication" duration-ms="3536" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobatime -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:33Z" name="logSeparator" finished-at="2018-05-30T08:00:33Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:33Z" name="reload" finished-at="2018-05-30T08:00:34Z" duration-ms="733" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="proconcept()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:34Z" name="proconcept" finished-at="2018-05-30T08:00:39Z" depends-on-methods="testcases.TestNavigation.managedBusinessApplication" duration-ms="5117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proconcept -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:39Z" name="logSeparator" finished-at="2018-05-30T08:00:39Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:39Z" name="reload" finished-at="2018-05-30T08:00:40Z" duration-ms="532" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="scorecards()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:40Z" name="scorecards" finished-at="2018-05-30T08:00:44Z" depends-on-methods="testcases.TestNavigation.managedBusinessApplication" duration-ms="4054" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scorecards -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:44Z" name="logSeparator" finished-at="2018-05-30T08:00:44Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:44Z" name="reload" finished-at="2018-05-30T08:00:45Z" duration-ms="700" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="vPN()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:45Z" name="vPN" finished-at="2018-05-30T08:00:49Z" depends-on-methods="testcases.TestNavigation.incidentSecurity" duration-ms="4070" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vPN -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:49Z" name="logSeparator" finished-at="2018-05-30T08:00:49Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:49Z" name="reload" finished-at="2018-05-30T08:00:49Z" duration-ms="520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="addEmail()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:49Z" name="addEmail" finished-at="2018-05-30T08:00:54Z" depends-on-methods="testcases.TestNavigation.activeDirectory" duration-ms="4451" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addEmail -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:54Z" name="logSeparator" finished-at="2018-05-30T08:00:54Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:54Z" name="reload" finished-at="2018-05-30T08:00:55Z" duration-ms="895" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="changeLastName()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:00:55Z" name="changeLastName" finished-at="2018-05-30T08:01:05Z" depends-on-methods="testcases.TestNavigation.activeDirectory" duration-ms="10742" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at testcases.TestNavigation.changeLastName(TestNavigation.java:941)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changeLastName -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:05Z" name="logSeparator" finished-at="2018-05-30T08:01:05Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:05Z" name="reload" finished-at="2018-05-30T08:01:07Z" duration-ms="1443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="changeNameManager()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:07Z" name="changeNameManager" finished-at="2018-05-30T08:01:17Z" depends-on-methods="testcases.TestNavigation.activeDirectory" duration-ms="9858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changeNameManager -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:17Z" name="logSeparator" finished-at="2018-05-30T08:01:17Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:17Z" name="reload" finished-at="2018-05-30T08:01:18Z" duration-ms="1510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="changeOfficeAddress()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:18Z" name="changeOfficeAddress" finished-at="2018-05-30T08:01:29Z" depends-on-methods="testcases.TestNavigation.activeDirectory" duration-ms="10527" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changeOfficeAddress -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:29Z" name="logSeparator" finished-at="2018-05-30T08:01:29Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method signature="accessMailboxExhange()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:29Z" name="accessMailboxExhange" finished-at="2018-05-30T08:01:29Z" depends-on-methods="testcases.TestNavigation.exchange" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.accessMailboxExhange()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.accessMailboxExhange()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accessMailboxExhange -->
-        <test-method signature="accessSharedCalendar()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:29Z" name="accessSharedCalendar" finished-at="2018-05-30T08:01:29Z" depends-on-methods="testcases.TestNavigation.exchange" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.accessSharedCalendar()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.accessSharedCalendar()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accessSharedCalendar -->
-        <test-method signature="calendarAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:29Z" name="calendarAccess" finished-at="2018-05-30T08:01:29Z" depends-on-methods="testcases.TestNavigation.exchange" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.calendarAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.calendarAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- calendarAccess -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:29Z" name="reload" finished-at="2018-05-30T08:01:31Z" duration-ms="2185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="grantAccessFolder()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:31Z" name="grantAccessFolder" finished-at="2018-05-30T08:01:40Z" depends-on-methods="testcases.TestNavigation.activeDirectory" duration-ms="9467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- grantAccessFolder -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:40Z" name="logSeparator" finished-at="2018-05-30T08:01:40Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method signature="issueEmails()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:40Z" name="issueEmails" finished-at="2018-05-30T08:01:40Z" depends-on-methods="testcases.TestNavigation.exchange" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.issueEmails()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.issueEmails()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- issueEmails -->
-        <test-method signature="notSpam()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:40Z" name="notSpam" finished-at="2018-05-30T08:01:40Z" depends-on-methods="testcases.TestNavigation.exchange" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.notSpam()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.notSpam()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- notSpam -->
-        <test-method signature="otherExchange()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:40Z" name="otherExchange" finished-at="2018-05-30T08:01:40Z" depends-on-methods="testcases.TestNavigation.exchange" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.otherExchange()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.otherExchange()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- otherExchange -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:40Z" name="reload" finished-at="2018-05-30T08:01:42Z" duration-ms="1303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="problemAV()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:42Z" name="problemAV" finished-at="2018-05-30T08:01:56Z" depends-on-methods="testcases.TestNavigation.antivirus" duration-ms="14161" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- problemAV -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:56Z" name="logSeparator" finished-at="2018-05-30T08:01:56Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:56Z" name="reload" finished-at="2018-05-30T08:01:58Z" duration-ms="2563" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="resetPassword()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:01:58Z" name="resetPassword" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.activeDirectory" duration-ms="12691" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPassword -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="logSeparator" finished-at="2018-05-30T08:02:11Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method signature="sendAsPermissions()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="sendAsPermissions" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.exchange" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.sendAsPermissions()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.sendAsPermissions()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendAsPermissions -->
-        <test-method signature="spam()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="spam" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.exchange" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.spam()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.spam()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- spam -->
-        <test-method signature="createDistributionList()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="createDistributionList" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.createDistributionList()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.createDistributionList()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createDistributionList -->
-        <test-method signature="createEmailIntoFolder()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="createEmailIntoFolder" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.createEmailIntoFolder()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.createEmailIntoFolder()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createEmailIntoFolder -->
-        <test-method signature="createSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="createSharedMailbox" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.createSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.createSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createSharedMailbox -->
-        <test-method signature="deleteSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="deleteSharedMailbox" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.deleteSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.deleteSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteSharedMailbox -->
-        <test-method signature="disableSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="disableSharedMailbox" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.disableSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.disableSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disableSharedMailbox -->
-        <test-method signature="grantSharedMailboxAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="grantSharedMailboxAccess" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.grantSharedMailboxAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.grantSharedMailboxAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- grantSharedMailboxAccess -->
-        <test-method signature="grantUserMailboxAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="grantUserMailboxAccess" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.grantUserMailboxAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.grantUserMailboxAccess()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- grantUserMailboxAccess -->
-        <test-method signature="modifyExistingMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="modifyExistingMailbox" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.modifyExistingMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.modifyExistingMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyExistingMailbox -->
-        <test-method signature="otherEmailRequest()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="otherEmailRequest" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.otherEmailRequest()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.otherEmailRequest()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- otherEmailRequest -->
-        <test-method signature="registerNewDomain()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="registerNewDomain" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.registerNewDomain()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.registerNewDomain()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerNewDomain -->
-        <test-method signature="revokeSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="revokeSharedMailbox" finished-at="2018-05-30T08:02:11Z" depends-on-methods="testcases.TestNavigation.emailMailbox" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestNavigation.revokeSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNavigation.revokeSharedMailbox()[pri:0, instance:testcases.TestNavigation@1e6454ec] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- revokeSharedMailbox -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:11Z" name="reload" finished-at="2018-05-30T08:02:13Z" duration-ms="1652" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="unlockAccount()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:13Z" name="unlockAccount" finished-at="2018-05-30T08:02:19Z" depends-on-methods="testcases.TestNavigation.activeDirectory" duration-ms="6042" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- unlockAccount -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:19Z" name="logSeparator" finished-at="2018-05-30T08:02:19Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:19Z" name="reload" finished-at="2018-05-30T08:02:20Z" duration-ms="895" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="badPerformance()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:20Z" name="badPerformance" finished-at="2018-05-30T08:02:26Z" depends-on-methods="testcases.TestNavigation.vPN" duration-ms="5908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- badPerformance -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:26Z" name="reload" finished-at="2018-05-30T08:02:26Z" duration-ms="906" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:26Z" name="logSeparator" finished-at="2018-05-30T08:02:26Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method signature="otherVPN()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:26Z" name="otherVPN" finished-at="2018-05-30T08:02:31Z" depends-on-methods="testcases.TestNavigation.vPN" duration-ms="4924" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- otherVPN -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:31Z" name="logSeparator" finished-at="2018-05-30T08:02:31Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:31Z" name="reload" finished-at="2018-05-30T08:02:32Z" duration-ms="845" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="unableLogin()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:32Z" name="unableLogin" finished-at="2018-05-30T08:02:47Z" depends-on-methods="testcases.TestNavigation.vPN" duration-ms="15195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- unableLogin -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:47Z" name="reload" finished-at="2018-05-30T08:02:48Z" duration-ms="999" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:47Z" name="logSeparator" finished-at="2018-05-30T08:02:47Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method signature="virusFound()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:48Z" name="virusFound" finished-at="2018-05-30T08:02:53Z" depends-on-methods="testcases.TestNavigation.antivirus" duration-ms="4841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- virusFound -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:53Z" name="logSeparator" finished-at="2018-05-30T08:02:53Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="logStuff()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:53Z" name="logStuff" finished-at="2018-05-30T08:02:53Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStuff -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TestNavigation@1e6454ec]" started-at="2018-05-30T08:02:53Z" name="closeDriver" finished-at="2018-05-30T08:02:55Z" duration-ms="2185" status="PASS">
+        </test-method> <!-- reportHRForms -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:51Z" name="closeDriver" finished-at="2018-05-30T09:24:52Z" duration-ms="896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- testcases.TestNavigation -->
+        <test-method signature="reportWordIncident()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:51Z" name="reportWordIncident" depends-on-groups="officeapp" finished-at="2018-05-30T09:24:51Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestReportIncident.reportWordIncident()[pri:0, instance:testcases.TestReportIncident@7690781] depends on not successfully finished methods in group "officeapp"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestReportIncident.reportWordIncident()[pri:0, instance:testcases.TestReportIncident@7690781] depends on not successfully finished methods in group "officeapp"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportWordIncident -->
+        <test-method signature="reportPowerpointIncident()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:51Z" name="reportPowerpointIncident" depends-on-groups="officeapp" finished-at="2018-05-30T09:24:51Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestReportIncident.reportPowerpointIncident()[pri:0, instance:testcases.TestReportIncident@7690781] depends on not successfully finished methods in group "officeapp"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestReportIncident.reportPowerpointIncident()[pri:0, instance:testcases.TestReportIncident@7690781] depends on not successfully finished methods in group "officeapp"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportPowerpointIncident -->
+        <test-method signature="reportOutlookIncidentBrowser()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:51Z" name="reportOutlookIncidentBrowser" depends-on-groups="officeapp" finished-at="2018-05-30T09:24:51Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestReportIncident.reportOutlookIncidentBrowser()[pri:0, instance:testcases.TestReportIncident@7690781] depends on not successfully finished methods in group "officeapp"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestReportIncident.reportOutlookIncidentBrowser()[pri:0, instance:testcases.TestReportIncident@7690781] depends on not successfully finished methods in group "officeapp"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportOutlookIncidentBrowser -->
+        <test-method is-config="true" signature="logStuff()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:51Z" name="logStuff" finished-at="2018-05-30T09:24:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStuff -->
+        <test-method signature="reportExcelIncident()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:51Z" name="reportExcelIncident" depends-on-groups="officeapp" finished-at="2018-05-30T09:24:51Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestReportIncident.reportExcelIncident()[pri:0, instance:testcases.TestReportIncident@7690781] depends on not successfully finished methods in group "officeapp"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestReportIncident.reportExcelIncident()[pri:0, instance:testcases.TestReportIncident@7690781] depends on not successfully finished methods in group "officeapp"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportExcelIncident -->
+        <test-method signature="reportOutlookIncidentIcon()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:51Z" name="reportOutlookIncidentIcon" depends-on-groups="officeapp" finished-at="2018-05-30T09:24:51Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestReportIncident.reportOutlookIncidentIcon()[pri:0, instance:testcases.TestReportIncident@7690781] depends on not successfully finished methods in group "officeapp"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestReportIncident.reportOutlookIncidentIcon()[pri:0, instance:testcases.TestReportIncident@7690781] depends on not successfully finished methods in group "officeapp"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportOutlookIncidentIcon -->
+        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@7690781]" started-at="2018-05-30T09:24:51Z" name="logSeparator" finished-at="2018-05-30T09:24:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logSeparator -->
+      </class> <!-- testcases.TestReportIncident -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
