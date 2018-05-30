@@ -26,6 +26,7 @@ public class TestNavigation {
 	private Chatbot chatbot;
 	private int passes;
 	private int fails;
+	private int total;
 	Logger logger = Logger.getLogger("TestNavigation");
 
 	@BeforeClass
@@ -33,6 +34,7 @@ public class TestNavigation {
 		PropertyConfigurator.configure("log4j.properties");
 		passes = 0;
 		fails = 0;
+		total=0;
 	}
 
 	@BeforeTest
@@ -50,12 +52,12 @@ public class TestNavigation {
 	@AfterMethod
 	public void logSeparator() {
 		logger.info("**********************************");
-		
+		total++;
 	}
 
 	@AfterClass
 	public void logStuff() {
-		logger.warn(passes + " tests passed and " + fails + " failed" + " total: " + Math.addExact(passes, fails));
+		logger.warn(passes + " tests passed and " + fails + " failed" + " total: " + total);
 		logger.info("**********************************");
 	}
 
@@ -85,7 +87,6 @@ public class TestNavigation {
 	@Test(dependsOnGroups = { "Login" }, groups = {})
 	public void submitARequest() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
-
 		NavigationTree.clickButton(NTSubmitARequest, chatbot);
 		assertEquals(chatbot.lastResponseContains("Please select one of"), true);
 		if (chatbot.lastResponseContains("Please select one of")) {
@@ -112,11 +113,10 @@ public class TestNavigation {
 		}
 	}
 
-	@Test(dependsOnMethods = { "createModifyTicket" }, groups = {})
+	@Test(dependsOnMethods = {}, groups = {})
 	public void createTicket() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
-
-		NavigationTree.clickButton(NTModifyTicket, chatbot);
+		NavigationTree.clickButton(NTCreateTicket, chatbot);
 		chatbot.waitForResponse();
 		assertEquals(chatbot.lastResponseContains("First of all"), true);
 		if (chatbot.lastResponseContains("First of all")) {

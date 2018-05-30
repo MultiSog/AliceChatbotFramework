@@ -3,13 +3,59 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="testcases.TestNavigation">
+        <methods>
+          <include name="revokeSharedMailbox"/>
+          <include name="createEmailIntoFolder"/>
+          <include name="otherExchange"/>
+          <include name="modifyRequest"/>
+          <include name="incidentSecurity"/>
+          <include name="logStuff"/>
+          <include name="calendarAccess"/>
+          <include name="reportAnIncident"/>
+          <include name="modifyTicket"/>
+          <include name="submitARequest"/>
+          <include name="communication"/>
+          <include name="sendAsPermissions"/>
+          <include name="activeDirectory"/>
+          <include name="deleteSharedMailbox"/>
+          <include name="disableSharedMailbox"/>
+          <include name="configLogger"/>
+          <include name="accessMailboxExhange"/>
+          <include name="general"/>
+          <include name="reload"/>
+          <include name="grantSharedMailboxAccess"/>
+          <include name="closeDriver"/>
+          <include name="grantUserMailboxAccess"/>
+          <include name="changeLastName"/>
+          <include name="loadPage"/>
+          <include name="registerNewDomain"/>
+          <include name="otherEmailRequest"/>
+          <include name="modifyIncident"/>
+          <include name="emailMailbox"/>
+          <include name="issueEmails"/>
+          <include name="createDistributionList"/>
+          <include name="notSpam"/>
+          <include name="logSeparator"/>
+          <include name="createModifyTicket"/>
+          <include name="spam"/>
+          <include name="imis"/>
+          <include name="exchange"/>
+          <include name="dataManagement"/>
+          <include name="createSharedMailbox"/>
+          <include name="incidentHardware"/>
+          <include name="modifyExistingMailbox"/>
+          <include name="managedBusinessApplication"/>
+          <include name="accessSharedCalendar"/>
+        </methods>
+      </class> <!-- testcases.TestNavigation -->
       <class name="testcases.TestLogin">
         <methods>
+          <include name="correctLogin"/>
           <include name="closeDriver"/>
           <include name="logResults"/>
           <include name="loadVariables"/>
           <include name="configLogger"/>
-          <include name="wrongLogin"/>
         </methods>
       </class> <!-- testcases.TestLogin -->
     </classes>
