@@ -13,9 +13,8 @@ public class NavigationTree {
 			responseButtons = new TreeMap<>();
 			responseButtons.put(NTReportAnIncident, "startNav"); 
 			responseButtons.put(NTSubmitARequest, "startNav"); 
-			responseButtons.put(NTModifyCreateTicket, "startNav"); 
-			responseButtons.put(NTCreateTicket, NTModifyCreateTicket); 
-			responseButtons.put(NTModifyTicket, NTModifyCreateTicket); 
+			responseButtons.put(NTModifyTicket, "startNav"); 
+			responseButtons.put(NTCreateTicket, NTModifyTicket); 
 			responseButtons.put(NTIncident, NTModifyTicket); 
 			responseButtons.put(NTRequest, NTModifyTicket); 
 			responseButtons.put(NTCommunication, NTSubmitARequest); 

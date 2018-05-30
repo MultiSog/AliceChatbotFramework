@@ -1,10 +1,8 @@
 package testcases;
 
 import static org.testng.Assert.assertEquals;
-import static utilities.HelpStrings.*;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -40,13 +38,13 @@ public class TestReportIncident {
 		chatbot = null;
 	}
 
-//	@Test(dependsOnGroups = {}, groups = { "stuff" })
-//	public void logout() {
-//		chatbot.openMenu();
-//		chatbot.waitForResponse(5000);
-//		chatbot.logout();
-//
-//	}
+	// @Test(dependsOnGroups = {}, groups = { "stuff" })
+	// public void logout() {
+	// chatbot.openMenu();
+	// chatbot.waitForResponse(5000);
+	// chatbot.logout();
+	//
+	// }
 
 	// office apps tests
 	@Test(dependsOnGroups = {}, groups = { "officeapp" })

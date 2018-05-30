@@ -1,79 +1,13 @@
 package testcases;
 
 import static org.testng.Assert.assertEquals;
-import static utilities.HelpStrings.NTAccessSharedCalendar;
-import static utilities.HelpStrings.NTAccessSharedMailbox;
-import static utilities.HelpStrings.NTActiveDirectory;
-import static utilities.HelpStrings.NTAddEmailToAccount;
-import static utilities.HelpStrings.NTAntivirus;
-import static utilities.HelpStrings.NTBPC;
-import static utilities.HelpStrings.NTBadPerformanceVPN;
-import static utilities.HelpStrings.NTBusinessApplication;
-import static utilities.HelpStrings.NTCalendarAccesses;
-import static utilities.HelpStrings.NTChangeLastName;
-import static utilities.HelpStrings.NTChangeNameManager;
-import static utilities.HelpStrings.NTChangeOfficeAddress;
-import static utilities.HelpStrings.NTCitrix;
-import static utilities.HelpStrings.NTClickview;
-import static utilities.HelpStrings.NTClockworks;
-import static utilities.HelpStrings.NTCommunication;
-import static utilities.HelpStrings.NTCommunicationApp;
-import static utilities.HelpStrings.NTCreateDistributionList;
-import static utilities.HelpStrings.NTCreateEmailInFolder;
-import static utilities.HelpStrings.NTCreateSharedMailbox;
-import static utilities.HelpStrings.NTCreateTicket;
-import static utilities.HelpStrings.NTDataManagement;
-import static utilities.HelpStrings.NTDeleteSharedMailbox;
-import static utilities.HelpStrings.NTDisableSharedMailbox;
-import static utilities.HelpStrings.NTEmailMailbox;
-import static utilities.HelpStrings.NTExchange;
-import static utilities.HelpStrings.NTGeneral;
-import static utilities.HelpStrings.NTGrantFolderAccess;
-import static utilities.HelpStrings.NTGrantSharedMailboxAccess;
-import static utilities.HelpStrings.NTGrantUserMailboxAccess;
-import static utilities.HelpStrings.NTHardwareIncident;
-import static utilities.HelpStrings.NTHardwareRequest;
-import static utilities.HelpStrings.NTIPTelephonyServices;
-import static utilities.HelpStrings.NTImis;
-import static utilities.HelpStrings.NTIncident;
-import static utilities.HelpStrings.NTInfrastructure;
-import static utilities.HelpStrings.NTIssueSendingReceivingEmails;
-import static utilities.HelpStrings.NTLyris;
-import static utilities.HelpStrings.NTMailchimp;
-import static utilities.HelpStrings.NTManagedBusinessApplication;
-import static utilities.HelpStrings.NTMobatime;
-import static utilities.HelpStrings.NTModifyCreateTicket;
-import static utilities.HelpStrings.NTModifyMailbox;
-import static utilities.HelpStrings.NTModifyTicket;
-import static utilities.HelpStrings.NTNetworkIncident;
-import static utilities.HelpStrings.NTNotSpam;
-import static utilities.HelpStrings.NTOfficeApp;
-import static utilities.HelpStrings.NTOtherEmailRequest;
-import static utilities.HelpStrings.NTOtherExchangeSoftware;
-import static utilities.HelpStrings.NTOtherSoftwareIncident;
-import static utilities.HelpStrings.NTOtherVPNIssue;
-import static utilities.HelpStrings.NTProConcept;
-import static utilities.HelpStrings.NTProblemAVSoftware;
-import static utilities.HelpStrings.NTRegisterEmailDomain;
-import static utilities.HelpStrings.NTReportAnIncident;
-import static utilities.HelpStrings.NTRequest;
-import static utilities.HelpStrings.NTResetPassword;
-import static utilities.HelpStrings.NTRevokeSharedMailbox;
-import static utilities.HelpStrings.NTScorecards;
-import static utilities.HelpStrings.NTSecurityIncident;
-import static utilities.HelpStrings.NTSendAsPermission;
-import static utilities.HelpStrings.NTSoftwareIncident;
-import static utilities.HelpStrings.NTSpam;
-import static utilities.HelpStrings.NTSubmitARequest;
-import static utilities.HelpStrings.NTUnableToLoginVPN;
-import static utilities.HelpStrings.NTUnlockAccount;
-import static utilities.HelpStrings.NTVPN;
-import static utilities.HelpStrings.NTVirusFound;
+import static utilities.HelpStrings.*;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -113,9 +47,15 @@ public class TestNavigation {
 		chatbot = new Chatbot(driver);
 	}
 
+	@AfterMethod
+	public void logSeparator() {
+		logger.info("**********************************");
+		
+	}
+
 	@AfterClass
 	public void logStuff() {
-		logger.warn(passes + " tests passed and " + fails + " failed" + " total: " + (passes + fails));
+		logger.warn(passes + " tests passed and " + fails + " failed" + " total: " + Math.addExact(passes, fails));
 		logger.info("**********************************");
 	}
 
@@ -130,7 +70,7 @@ public class TestNavigation {
 	@Test(dependsOnGroups = { "Login" })
 	public void createModifyTicket() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
-		NavigationTree.clickButton(NTModifyCreateTicket, chatbot);
+		NavigationTree.clickButton(NTModifyTicket, chatbot);
 		logger.info("step: button clicked");
 		assertEquals(chatbot.lastResponseContains("Ok, what do you want to do?"), true);
 		if (chatbot.lastResponseContains("Ok, what do you want to do?")) {
@@ -176,7 +116,7 @@ public class TestNavigation {
 	public void createTicket() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 
-		NavigationTree.clickButton(NTCreateTicket, chatbot);
+		NavigationTree.clickButton(NTModifyTicket, chatbot);
 		chatbot.waitForResponse();
 		assertEquals(chatbot.lastResponseContains("First of all"), true);
 		if (chatbot.lastResponseContains("First of all")) {
@@ -369,9 +309,9 @@ public class TestNavigation {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		NavigationTree.clickButton(NTRevokeSharedMailbox, chatbot);
 		assertEquals(chatbot.lastResponseContains(
-				"Can I have the preferred name of the shared mailbox u wish to revoke the access?"), true);
+				"Can I have the preferred name of the shared mailbox you wish to revoke the access of?"), true);
 		if (chatbot.lastResponseContains(
-				"Can I have the preferred name of the shared mailbox u wish to revoke the access?")) {
+				"Can I have the preferred name of the shared mailbox you wish to revoke the access of?")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {
@@ -546,8 +486,8 @@ public class TestNavigation {
 	public void general() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		NavigationTree.clickButton(NTGeneral, chatbot);
-		assertEquals(chatbot.responseContains("You'll find the General forms there:", 1), true);
-		if (chatbot.lastResponseContains("You'll find the General forms there:")) {
+		assertEquals(chatbot.responseContains("Is there anything else", 1), true);
+		if (chatbot.lastResponseContains("Is there anything else")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {
@@ -560,8 +500,8 @@ public class TestNavigation {
 	public void imis() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		NavigationTree.clickButton(NTImis, chatbot);
-		assertEquals(chatbot.responseContains("You'll find the Imis forms there:", 1), true);
-		if (chatbot.lastResponseContains("You'll find the Imis forms there:")) {
+		assertEquals(chatbot.responseContains("Is there anything else", 1), true);
+		if (chatbot.lastResponseContains("Is there anything else")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {
@@ -574,8 +514,8 @@ public class TestNavigation {
 	public void lyris() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		NavigationTree.clickButton(NTLyris, chatbot);
-		assertEquals(chatbot.responseContains("You'll find the Lyris forms there:", 1), true);
-		if (chatbot.lastResponseContains("You'll find the Lyris forms there:")) {
+		assertEquals(chatbot.lastResponseContains("Is there anything else"), true);
+		if (chatbot.lastResponseContains("Is there anything else")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {
@@ -588,8 +528,8 @@ public class TestNavigation {
 	public void mailchimp() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		NavigationTree.clickButton(NTMailchimp, chatbot);
-		assertEquals(chatbot.responseContains("You'll find the MailChimp forms there:", 1), true);
-		if (chatbot.lastResponseContains("You'll find the MailChimp forms there:")) {
+		assertEquals(chatbot.lastResponseContains("Is there anything else"), true);
+		if (chatbot.lastResponseContains("Is there anything else")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {
@@ -602,8 +542,8 @@ public class TestNavigation {
 	public void mobatime() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		NavigationTree.clickButton(NTMobatime, chatbot);
-		assertEquals(chatbot.responseContains("You'll find the MobaTime forms there:", 1), true);
-		if (chatbot.lastResponseContains("You'll find the MobaTime forms there:")) {
+		assertEquals(chatbot.lastResponseContains("Is there anything else"), true);
+		if (chatbot.lastResponseContains("Is there anything else")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {
@@ -616,8 +556,8 @@ public class TestNavigation {
 	public void proconcept() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		NavigationTree.clickButton(NTProConcept, chatbot);
-		assertEquals(chatbot.responseContains("You'll find the ProConcept forms there:", 1), true);
-		if (chatbot.lastResponseContains("You'll find the ProConcept forms there:")) {
+		assertEquals(chatbot.lastResponseContains("Is there anything else"), true);
+		if (chatbot.lastResponseContains("Is there anything else")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {
@@ -630,8 +570,8 @@ public class TestNavigation {
 	public void scorecards() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		NavigationTree.clickButton(NTScorecards, chatbot);
-		assertEquals(chatbot.responseContains("You'll find the Scorecards forms there:", 1), true);
-		if (chatbot.lastResponseContains("You'll find the Scorecards forms there:")) {
+		assertEquals(chatbot.lastResponseContains("Is there anything else"), true);
+		if (chatbot.lastResponseContains("Is there anything else")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {
@@ -650,8 +590,8 @@ public class TestNavigation {
 
 			e.printStackTrace();
 		}
-		assertEquals(chatbot.lastResponseContains("In order to make sure I understand which component is"), true);
-		if (chatbot.lastResponseContains("In order to make sure I understand which component is")) {
+		assertEquals(chatbot.lastResponseContains("Is there anything else"), true);
+		if (chatbot.lastResponseContains("Is there anything else")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {
@@ -857,8 +797,8 @@ public class TestNavigation {
 	public void problemAV() {
 		logger.info("test: " + Thread.currentThread().getStackTrace()[1].getMethodName());
 		NavigationTree.clickButton(NTProblemAVSoftware, chatbot);
-		assertEquals(chatbot.lastResponseContains("This will have to be fixed rather fast, since"), true);
-		if (chatbot.lastResponseContains("This will have to be fixed rather fast, since")) {
+		assertEquals(chatbot.lastResponseContains("UhOh! sounds like trouble!"), true);
+		if (chatbot.lastResponseContains("UhOh! sounds like trouble!")) {
 			logger.warn("Test passed");
 			passes++;
 		} else {

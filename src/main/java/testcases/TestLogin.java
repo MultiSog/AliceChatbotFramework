@@ -98,9 +98,9 @@ public class TestLogin {
 		} catch (TimeoutException e) {
 			loaded = false;
 		}
-		assertEquals(loaded, true);
+		assertEquals(loaded, false);
 		
-		if (loaded) {
+		if (!loaded) {
 			logger.warn("result: test passed");
 			passes++;
 		} else {
