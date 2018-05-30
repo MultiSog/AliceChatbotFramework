@@ -742,3 +742,22 @@
 2018-05-30 11:24:51,953 - TestNavigation -INFO - **********************************
 2018-05-30 11:24:51,953 - TestNavigation -WARN - 13 tests passed and 0 failed total: 23
 2018-05-30 11:24:51,953 - TestNavigation -INFO - **********************************
+2018-05-30 11:30:58,351 - TestNavigation -INFO - test: reportMobaTime
+2018-05-30 11:31:06,723 - TestNavigation -WARN - Test passed
+2018-05-30 11:31:06,728 - TestNavigation -INFO - **********************************
+2018-05-30 11:31:06,730 - TestNavigation -WARN - 1 tests passed and 0 failed total: 1
+2018-05-30 11:31:06,733 - TestNavigation -INFO - **********************************
+2018-05-30 11:34:18,438 - TestNavigation -INFO - test: reportSkypeOther
+2018-05-30 11:34:28,923 - TestNavigation -INFO - **********************************
+2018-05-30 11:34:28,926 - TestNavigation -WARN - 0 tests passed and 0 failed total: 1
+2018-05-30 11:34:28,926 - TestNavigation -INFO - **********************************
+2018-05-30 11:35:00,135 - TestNavigation -INFO - test: reportSkypeOther
+2018-05-30 11:35:08,838 - TestNavigation -WARN - Test passed
+2018-05-30 11:35:08,839 - TestNavigation -INFO - **********************************
+2018-05-30 11:35:08,844 - TestNavigation -WARN - 1 tests passed and 0 failed total: 1
+2018-05-30 11:35:08,844 - TestNavigation -INFO - **********************************
+2018-05-30 11:35:32,933 - TestNavigation -INFO - test: reportSkypeOther
+2018-05-30 11:35:41,249 - TestNavigation -WARN - Test passed
+2018-05-30 11:35:41,252 - TestNavigation -INFO - **********************************
+2018-05-30 11:35:41,255 - TestNavigation -WARN - 1 tests passed and 0 failed total: 1
+2018-05-30 11:35:41,257 - TestNavigation -INFO - **********************************

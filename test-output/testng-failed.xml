@@ -5,27 +5,13 @@
     <classes>
       <class name="testcases.TestReportIncident">
         <methods>
-          <include name="reportOutlookIncidentBrowser"/>
+          <include name="logStuff"/>
           <include name="reportSkypeOther"/>
-          <include name="reportCitrixOtherAllApps"/>
-          <include name="reportClockWorks"/>
-          <include name="reportMobaTime"/>
-          <include name="reportOutlookIncidentIcon"/>
-          <include name="reportSkypeFunctionalities"/>
+          <include name="loadPage"/>
           <include name="closeDriver"/>
           <include name="configLogger"/>
           <include name="reload"/>
-          <include name="logStuff"/>
-          <include name="reportMailChimp"/>
-          <include name="reportPowerpointIncident"/>
-          <include name="loadPage"/>
-          <include name="reportExcelIncident"/>
-          <include name="reportSkypeCredentials"/>
-          <include name="reportWordIncident"/>
-          <include name="reportOfficeAppIncident"/>
           <include name="logSeparator"/>
-          <include name="reportHRForms"/>
-          <include name="reportScorecards"/>
         </methods>
       </class> <!-- testcases.TestReportIncident -->
     </classes>
