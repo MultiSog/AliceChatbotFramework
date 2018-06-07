@@ -1,44 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="27" total="28" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-05-30T09:35:21Z" name="Default suite" finished-at="2018-05-30T09:35:42Z" duration-ms="21209">
+  <suite started-at="2018-05-30T09:44:33Z" name="Default suite" finished-at="2018-05-30T09:45:09Z" duration-ms="36150">
     <groups>
-      <group name="skype">
-        <method signature="TestReportIncident.reportSkypeOther()[pri:0, instance:testcases.TestReportIncident@68c72235]" name="reportSkypeOther" class="testcases.TestReportIncident"/>
-      </group> <!-- skype -->
+      <group name="Login">
+        <method signature="TestLogin.correctLogin()[pri:0, instance:testcases.TestLogin@2892dae4]" name="correctLogin" class="testcases.TestLogin"/>
+      </group> <!-- Login -->
     </groups>
-    <test started-at="2018-05-30T09:35:21Z" name="Default test" finished-at="2018-05-30T09:35:42Z" duration-ms="21209">
-      <class name="testcases.TestReportIncident">
-        <test-method is-config="true" signature="loadPage()[pri:0, instance:testcases.TestReportIncident@68c72235]" started-at="2018-05-30T09:35:21Z" name="loadPage" finished-at="2018-05-30T09:35:32Z" duration-ms="11227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadPage -->
-        <test-method is-config="true" signature="configLogger()[pri:0, instance:testcases.TestReportIncident@68c72235]" started-at="2018-05-30T09:35:32Z" name="configLogger" finished-at="2018-05-30T09:35:32Z" duration-ms="85" status="PASS">
+    <test started-at="2018-05-30T09:44:33Z" name="Default test" finished-at="2018-05-30T09:45:09Z" duration-ms="36150">
+      <class name="testcases.TestLogin">
+        <test-method is-config="true" signature="configLogger()[pri:0, instance:testcases.TestLogin@2892dae4]" started-at="2018-05-30T09:44:33Z" name="configLogger" finished-at="2018-05-30T09:44:33Z" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configLogger -->
-        <test-method is-config="true" signature="reload()[pri:0, instance:testcases.TestReportIncident@68c72235]" started-at="2018-05-30T09:35:32Z" name="reload" finished-at="2018-05-30T09:35:32Z" duration-ms="328" status="PASS">
+        <test-method is-config="true" signature="loadVariables()[pri:0, instance:testcases.TestLogin@2892dae4]" started-at="2018-05-30T09:44:33Z" name="loadVariables" finished-at="2018-05-30T09:44:40Z" duration-ms="7293" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reload -->
-        <test-method signature="reportSkypeOther()[pri:0, instance:testcases.TestReportIncident@68c72235]" started-at="2018-05-30T09:35:32Z" name="reportSkypeOther" finished-at="2018-05-30T09:35:41Z" duration-ms="8320" status="PASS">
+        </test-method> <!-- loadVariables -->
+        <test-method signature="correctLogin()[pri:0, instance:testcases.TestLogin@2892dae4]" started-at="2018-05-30T09:44:40Z" name="correctLogin" finished-at="2018-05-30T09:44:50Z" duration-ms="10420" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at testcases.TestLogin.correctLogin(TestLogin.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reportSkypeOther -->
-        <test-method is-config="true" signature="logSeparator()[pri:0, instance:testcases.TestReportIncident@68c72235]" started-at="2018-05-30T09:35:41Z" name="logSeparator" finished-at="2018-05-30T09:35:41Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logSeparator -->
-        <test-method is-config="true" signature="logStuff()[pri:0, instance:testcases.TestReportIncident@68c72235]" started-at="2018-05-30T09:35:41Z" name="logStuff" finished-at="2018-05-30T09:35:41Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logStuff -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TestReportIncident@68c72235]" started-at="2018-05-30T09:35:41Z" name="closeDriver" finished-at="2018-05-30T09:35:42Z" duration-ms="1206" status="PASS">
+        </test-method> <!-- correctLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TestLogin@2892dae4]" started-at="2018-05-30T09:44:50Z" name="closeDriver" finished-at="2018-05-30T09:44:51Z" duration-ms="785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- testcases.TestReportIncident -->
+        <test-method is-config="true" signature="loadVariables()[pri:0, instance:testcases.TestLogin@2892dae4]" started-at="2018-05-30T09:44:51Z" name="loadVariables" finished-at="2018-05-30T09:44:57Z" duration-ms="6073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadVariables -->
+        <test-method signature="wrongLogin()[pri:0, instance:testcases.TestLogin@2892dae4]" started-at="2018-05-30T09:44:57Z" name="wrongLogin" finished-at="2018-05-30T09:45:08Z" duration-ms="10682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testcases.TestLogin@2892dae4]" started-at="2018-05-30T09:45:08Z" name="closeDriver" finished-at="2018-05-30T09:45:09Z" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="logResults()[pri:0, instance:testcases.TestLogin@2892dae4]" started-at="2018-05-30T09:45:09Z" name="logResults" finished-at="2018-05-30T09:45:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logResults -->
+      </class> <!-- testcases.TestLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

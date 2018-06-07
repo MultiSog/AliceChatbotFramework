@@ -3,17 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.TestReportIncident">
+      <class name="testcases.TestLogin">
         <methods>
-          <include name="logStuff"/>
-          <include name="reportSkypeOther"/>
-          <include name="loadPage"/>
+          <include name="correctLogin"/>
           <include name="closeDriver"/>
+          <include name="logResults"/>
+          <include name="loadVariables"/>
           <include name="configLogger"/>
-          <include name="reload"/>
-          <include name="logSeparator"/>
         </methods>
-      </class> <!-- testcases.TestReportIncident -->
+      </class> <!-- testcases.TestLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

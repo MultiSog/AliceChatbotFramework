@@ -761,3 +761,26 @@
 2018-05-30 11:35:41,252 - TestNavigation -INFO - **********************************
 2018-05-30 11:35:41,255 - TestNavigation -WARN - 1 tests passed and 0 failed total: 1
 2018-05-30 11:35:41,257 - TestNavigation -INFO - **********************************
+2018-05-30 11:43:48,641 - TestLogin -INFO - **********************************
+2018-05-30 11:43:48,666 - TestLogin -INFO - test: correctLogin
+2018-05-30 11:43:48,960 - TestLogin -INFO - step: login request submitted
+2018-05-30 11:43:50,851 - TestLogin -WARN - result: test passed
+2018-05-30 11:43:51,726 - TestLogin -INFO - **********************************
+2018-05-30 11:43:58,916 - TestLogin -INFO - **********************************
+2018-05-30 11:43:58,917 - TestLogin -INFO - test: wrongLogin
+2018-05-30 11:43:59,560 - TestLogin -INFO - step: login request submitted
+2018-05-30 11:44:09,765 - TestLogin -WARN - result: test passed
+2018-05-30 11:44:10,596 - TestLogin -INFO - **********************************
+2018-05-30 11:44:10,596 - TestLogin -WARN - 2 tests passed and 0 failed total: 2
+2018-05-30 11:44:10,596 - TestLogin -INFO - **********************************
+2018-05-30 11:44:40,521 - TestLogin -INFO - **********************************
+2018-05-30 11:44:40,536 - TestLogin -INFO - test: correctLogin
+2018-05-30 11:44:40,792 - TestLogin -INFO - step: login request submitted
+2018-05-30 11:44:51,728 - TestLogin -INFO - **********************************
+2018-05-30 11:44:57,801 - TestLogin -INFO - **********************************
+2018-05-30 11:44:57,801 - TestLogin -INFO - test: wrongLogin
+2018-05-30 11:44:58,286 - TestLogin -INFO - step: login request submitted
+2018-05-30 11:45:08,483 - TestLogin -WARN - result: test passed
+2018-05-30 11:45:09,285 - TestLogin -INFO - **********************************
+2018-05-30 11:45:09,285 - TestLogin -WARN - 1 tests passed and 0 failed total: 1
+2018-05-30 11:45:09,285 - TestLogin -INFO - **********************************
